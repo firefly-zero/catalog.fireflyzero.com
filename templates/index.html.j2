@@ -1,9 +1,9 @@
 {% extends "base.html.j2" %}
 {% block body %}
-  <div class="row row-cols-1 row-cols-md-4 g-1 mt-1">
+  <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
     {% for app in apps %}
       <div class="col col-md-4">
-        <div class="card">
+        <article class="card">
           <div class="card-body">
             <h5 class="card-title">
               {{ app.name }}<br/>
@@ -19,8 +19,8 @@
               get
             </a>
           </div>
-        </div>
+        </article>
       </div>
     {% endfor %}
-  </div>
+  </main>
 {% endblock %}
