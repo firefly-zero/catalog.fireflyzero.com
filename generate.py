@@ -31,3 +31,8 @@ apps.sort(key=lambda a: (a.added, a.name), reverse=True)
 template = env.get_template('index.html.j2')
 content = template.render(apps=apps)
 Path('public', 'index.html').write_text(content)
+
+template = env.get_template('app.html.j2')
+for app in apps:
+    content = template.render(app=app)
+    Path('public', f'{app.id}.html').write_text(content)
