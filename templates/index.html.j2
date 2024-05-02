@@ -1,0 +1,26 @@
+{% extends "base.html.j2" %}
+{% block body %}
+  <div class="row row-cols-1 row-cols-md-4 g-1 mt-1">
+    {% for app in apps %}
+      <div class="col col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              {{ app.name }}<br/>
+              <span class="text-muted fs-6">by {{ app.author }}</span>
+            </h5>
+            <p class="card-text">{{ app.short }}</p>
+            <a href="./{{ app.id }}.html" class="btn btn-light">
+              <i class="fa-solid fa-circle-info"></i>
+              info
+            </a>
+            <a href="{{ app.download }}" target="_blank" class="btn btn-light">
+              <i class="fa-solid fa-download"></i>
+              get
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

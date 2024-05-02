@@ -1,0 +1,4 @@
+jinja-markdown2
+jinja2
+pydantic
+pyyaml
