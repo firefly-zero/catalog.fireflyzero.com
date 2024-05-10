@@ -54,6 +54,8 @@ content = template.render(apps=apps)
 Path('public', 'index.html').write_text(content)
 
 template = env.get_template('app.html.j2')
+out_dir = Path('public')
 for app in apps:
     content = template.render(app=app)
-    Path('public', f'{app.id}.html').write_text(content)
+    (out_dir / f'{app.id}.html').write_text(content)
+    (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
