@@ -3,7 +3,7 @@
   {{ app.name }} by {{ app.author }}
 {% endblock %}
 {% block body %}
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mb-1">
     <div class="col col-md-6">
       <h1>{{ app.name }}</h1>
       <ul class="list-unstyled">
@@ -38,4 +38,22 @@
 
     </div>
   </div>
+
+  {# https://giscus.app/ #}
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="firefly-zero/catalog.fireflyzero.com"
+    data-repo-id="R_kgDOL2E5Kw"
+    data-category="Reviews"
+    data-category-id="DIC_kwDOL2E5K84CfQ1G"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="noborder_light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+  ></script>
 {% endblock %}
