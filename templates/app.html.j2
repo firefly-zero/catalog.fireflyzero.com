@@ -5,11 +5,14 @@
 {% block body %}
   <div class="row justify-content-center mb-1">
     <div class="col col-md-6">
-      <h1>{{ app.name }}</h1>
+      <h1>
+        <a href="/">Apps</a> /
+        {{ app.name }}
+      </h1>
       <ul class="list-unstyled">
         <li>
           <i class="fa-solid fa-user" title="author"></i>
-          {{ app.author }}
+          {{ app.author.name }}
         </li>
         <li>
           <i class="fa-solid fa-circle-info" title="short description"></i>
@@ -25,6 +28,7 @@
         {{ app.desc }}
       {% endmarkdown %}
 
+      {# Buttons #}
       {% if app.repo %}
         <a href="{{ app.repo }}" target="_blank" class="btn btn-light">
           <i class="fa-solid fa-code-branch"></i>
@@ -36,24 +40,25 @@
         download
       </a>
 
+      {# Comments #}
+      {# https://giscus.app/ #}
+      <script
+        src="https://giscus.app/client.js"
+        data-repo="firefly-zero/catalog.fireflyzero.com"
+        data-repo-id="R_kgDOL2E5Kw"
+        data-category="Reviews"
+        data-category-id="DIC_kwDOL2E5K84CfQ1G"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async
+      ></script>
+
     </div>
   </div>
-
-  {# https://giscus.app/ #}
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="firefly-zero/catalog.fireflyzero.com"
-    data-repo-id="R_kgDOL2E5Kw"
-    data-category="Reviews"
-    data-category-id="DIC_kwDOL2E5K84CfQ1G"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="noborder_light"
-    data-lang="en"
-    crossorigin="anonymous"
-    async
-  ></script>
 {% endblock %}

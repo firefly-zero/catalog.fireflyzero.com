@@ -1,0 +1,8 @@
+name:     Input test
+short:    Test touch pad and buttons
+added:    "2024-05-02"
+repo:     https://github.com/firefly-zero/firefly-input-test
+download: https://github.com/firefly-zero/firefly-input-test/releases
+desc: >
+  A simple app to show what buttons are pressed and the finger position
+  on the touch pad.
