@@ -11,11 +11,11 @@
             </h5>
             <p class="card-text">{{ app.short }}</p>
             <a href="./{{ app.id }}.html" class="btn btn-light">
-              <img src="./assets/info-circle.svg" class="icon">
+              <img src="./assets/info-circle.svg" class="icon"/>
               info
             </a>
             <a href="{{ app.download }}" target="_blank" class="btn btn-light">
-              <img src="./assets/download.svg" class="icon">
+              <img src="./assets/download.svg" class="icon"/>
               get
             </a>
           </div>
@@ -23,4 +23,14 @@
       </div>
     {% endfor %}
   </main>
+  <footer class="mb-1 mt-1">
+    <a
+      href="https://github.com/firefly-zero/catalog.fireflyzero.com?tab=readme-ov-file#add-a-new-app"
+      target="_blank"
+      class="btn btn-light"
+    >
+      <img src="./assets/plus-circle.svg" class="icon"/>
+      add
+    </a>
+  </footer>
 {% endblock %}
