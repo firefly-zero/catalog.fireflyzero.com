@@ -11,16 +11,16 @@
       </h1>
       <ul class="list-unstyled">
         <li>
-          <i class="fa-solid fa-user" title="author"></i>
+          <img src="./assets/user.svg" class="icon">
           {{ app.author.name }}
         </li>
         <li>
-          <i class="fa-solid fa-circle-info" title="short description"></i>
-          {{ app.short }}
+          <img src="./assets/calendar-plus.svg" class="icon">
+          {{ app.added }}
         </li>
         <li>
-          <i class="fa-solid fa-calendar-plus" title="date when added"></i>
-          {{ app.added }}
+          <img src="./assets/info-circle.svg" class="icon">
+          {{ app.short }}
         </li>
       </ul>
 
@@ -31,12 +31,18 @@
       {# Buttons #}
       {% if app.repo %}
         <a href="{{ app.repo }}" target="_blank" class="btn btn-light">
-          <i class="fa-solid fa-code-branch"></i>
+          {% if app.repo.startswith('https://github.com/') %}
+            <img src="./assets/github.svg" class="icon">
+          {% elif app.repo.startswith('https://gitlab.com/') %}
+            <img src="./assets/gitlab-full.svg" class="icon">
+          {% else %}
+            <img src="./assets/repository.svg" class="icon">
+          {% endif %}
           source code
         </a>
       {% endif %}
       <a href="{{ app.download }}" target="_blank" class="btn btn-light">
-        <i class="fa-solid fa-download"></i>
+        <img src="./assets/download.svg" class="icon">
         download
       </a>
 
