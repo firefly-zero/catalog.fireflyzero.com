@@ -2,6 +2,6 @@ name:     Launcher
 short:    The default system launcher
 added:    "2024-05-02"
 repo:     https://github.com/firefly-zero/firefly-launcher
-download: https://github.com/firefly-zero/firefly-launcher/releases
+download: https://github.com/firefly-zero/firefly-launcher/releases/latest/download/sys.launcher.zip
 desc: >
   Navigate and launch the installed apps, modify device settings.

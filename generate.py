@@ -25,6 +25,12 @@ class App(BaseModel):
     download: str = Field(pattern=r'https://.+\..+')
     desc: str = Field(min_length=10, max_length=10_000)
 
+    @property
+    def direct(self) -> bool:
+        """True if the download link is a direct download for the file.
+        """
+        return self.download.endswith('.zip')
+
 
 env = Environment(loader=FileSystemLoader('templates'))
 env.add_extension(MarkdownExtension)
