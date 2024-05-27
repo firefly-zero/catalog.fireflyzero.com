@@ -1,0 +1,8 @@
+name:     Snek
+short:    Snake-inspired game with 360° movement.
+added:    "2024-05-02"
+repo:     https://github.com/firefly-zero/snek
+download: https://github.com/firefly-zero/snek/releases/latest/download/firefly.snek.zip
+desc: >
+  A new twist on the classic snake game. Uses the power of Firefly Zero touch pad
+  for 360° movement. In future, will also include PvP multiplayer.
