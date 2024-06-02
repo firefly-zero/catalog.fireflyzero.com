@@ -11,10 +11,48 @@
       crossorigin="anonymous"
     />
     <style>
+      :root {
+        --bs-body-color: #1a1c2c;
+        --bs-btn-color: #1a1c2c;
+        --bs-body-bg: #f4f4f4;
+        --bs-light: #f4f4f4;
+      }
+
+      a {
+        color: #29366f;
+      }
+
+      a:hover {
+        color: #3b5dc9;
+      }
+
+      .alert {
+        --bs-alert-bg: #f4f4f4;
+        --bs-alert-color: #1a1c2c;
+        --bs-alert-border-color: #1a1c2c;
+      }
+
+      .btn {
+        --bs-btn-bg: #f4f4f4;
+        --bs-btn-border-color: #1a1c2c;
+        --bs-btn-hover-bg: #1a1c2c;
+        --bs-btn-hover-color: #f4f4f4;
+        --bs-btn-hover-border-color: #f4f4f4;
+      }
+
+      .card {
+        --bs-card-border-color: #1a1c2c;
+      }
+
       img.icon {
         height: 1.2em;
         margin-top: -0.1em;
       }
+
+      .btn:hover > img.icon {
+        filter: invert(100%);
+      }
+
     </style>
   </head>
   <body>
