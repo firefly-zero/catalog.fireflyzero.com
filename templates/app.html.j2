@@ -29,14 +29,6 @@
       {% endmarkdown %}
 
       {# Buttons #}
-      {% if app.repo %}
-        <a href="{{ app.repo }}" target="_blank" class="btn btn-light">
-          {% if get_icon('source code', app.repo) %}
-            <i class="{{ get_icon('source code', app.repo) }}"></i>
-          {% endif %}
-          source code
-        </a>
-      {% endif %}
       <a
         href="{{ app.download }}"
         {% if app.direct %}download{% else %}target="_blank"{% endif %}
@@ -45,6 +37,14 @@
         <i class="fa-solid fa-download"></i>
         download
       </a>
+      {% for name, url in app.links.items() %}
+        <a href="{{ url }}" target="_blank" class="btn btn-light">
+          {% if get_icon(name, url) %}
+            <i class="{{ get_icon(name, url) }}"></i>
+          {% endif %}
+          {{ name }}
+        </a>
+      {% endfor %}
 
       {% if app.direct %}
         <p class="mt-3">

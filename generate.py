@@ -42,8 +42,8 @@ class App(BaseModel):
     author: Author
     short: str = Field(min_length=4, max_length=140)
     added: str = Field(pattern=r'^20[234][0-9]-[01][0-9]-[0123][0-9]$')
-    repo: str | None = Field(pattern=r'^https://.+\.', default=None)
     download: str = Field(pattern=r'^https://.+\.')
+    links: dict[str, str] = Field(min_length=1, max_length=16)
     icon: str | None = Field(pattern=r'^fa-')
     desc: str = Field(min_length=10, max_length=10_000)
 
