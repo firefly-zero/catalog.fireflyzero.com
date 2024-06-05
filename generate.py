@@ -8,6 +8,12 @@ from jinja_markdown2 import MarkdownExtension  # type: ignore[import-untyped]
 from pydantic import BaseModel, ConfigDict, Field
 
 
+ICONS = {
+    'github.com': 'github.svg',
+    'gitlab.com': 'gitlab-full.svg',
+}
+
+
 class Author(BaseModel):
     id: str = Field(pattern=r'^.{1,16}$')
     name: str = Field(min_length=2, max_length=40)
@@ -17,6 +23,15 @@ class Author(BaseModel):
     about: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
+
+    @staticmethod
+    def get_icon(name: str, url: str) -> str | None:
+        icon = ICONS.get(name)
+        if icon is not None:
+            return icon
+        url = url.removeprefix('https://')
+        url = url.split('/')[0]
+        return ICONS.get(url)
 
 
 class App(BaseModel):
