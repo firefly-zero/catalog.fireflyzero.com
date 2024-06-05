@@ -13,6 +13,7 @@ class Author(BaseModel):
     name: str = Field(min_length=2, max_length=40)
     pronouns: str | None = Field(pattern='^[a-z]{1,8}/[a-z]{1,8}$')
     links: dict[str, str] = Field(min_length=1, max_length=16)
+    short: str = Field(min_length=4, max_length=140)
     about: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
@@ -69,18 +70,26 @@ def load_authors() -> list[Author]:
 
 apps = load_apps()
 authors = load_authors()
+out_dir = Path('public')
 
+# render list of apps
 template = env.get_template('index.html.j2')
 content = template.render(apps=apps)
-out_dir = Path('public')
 (out_dir / 'index.html').write_text(content)
 
+# render page for each app
 template = env.get_template('app.html.j2')
 for app in apps:
     content = template.render(app=app)
     (out_dir / f'{app.id}.html').write_text(content)
     (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
 
+# render list of authors
+template = env.get_template('authors.html.j2')
+content = template.render(authors=authors)
+(out_dir / 'authors.html').write_text(content)
+
+# render page for each author
 template = env.get_template('author.html.j2')
 for author in authors:
     author_apps = [app for app in apps if app.author.id == author.id]

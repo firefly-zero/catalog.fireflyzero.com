@@ -3,5 +3,8 @@ pronouns: they/them
 links:
   github:   https://github.com/firefly-zero/
   homepage: https://fireflyzero.com/
+short: The official system apps from the Firefly Zero team.
 about: >
-  The official system apps from the Firefly Zero team.
+  All of them are pre-installed by default on each Firefly Zero device.
+  You might need to download them for emulator or when building Firefly Zero
+  from scratch.

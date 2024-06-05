@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+{% block title %}
+  Authors in Firefly Zero catalog
+{% endblock %}
+{% block body %}
+  <h1>
+    <a href="/">Catalog</a> / Authors
+  </h1>
+  <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
+    {% for author in authors %}
+      {% include 'author-card.html.j2' %}
+    {% endfor %}
+  </main>
+{% endblock %}
