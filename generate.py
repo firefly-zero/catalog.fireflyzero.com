@@ -57,15 +57,31 @@ def load_apps() -> list[App]:
     return apps
 
 
+def load_authors() -> list[Author]:
+    authors = []
+    for author_path in Path('authors').iterdir():
+        author_raw = yaml.safe_load(author_path.read_text())
+        author = Author(id=author_path.stem, **author_raw)
+        authors.append(author)
+    return authors
+
+
 apps = load_apps()
+authors = load_authors()
 
 template = env.get_template('index.html.j2')
 content = template.render(apps=apps)
-Path('public', 'index.html').write_text(content)
+out_dir = Path('public')
+(out_dir / 'index.html').write_text(content)
 
 template = env.get_template('app.html.j2')
-out_dir = Path('public')
 for app in apps:
     content = template.render(app=app)
     (out_dir / f'{app.id}.html').write_text(content)
     (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
+
+template = env.get_template('author.html.j2')
+for author in authors:
+    content = template.render(author=author)
+    (out_dir / f'{author.id}.html').write_text(content)
+    (out_dir / f'{author.id}.json').write_text(author.model_dump_json())

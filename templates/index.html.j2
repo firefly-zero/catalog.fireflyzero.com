@@ -7,7 +7,9 @@
           <div class="card-body">
             <h5 class="card-title">
               {{ app.name }}<br/>
-              <span class="fs-6">by {{ app.author.name }}</span>
+              <span class="fs-6">
+                by <a href="{{ app.author.id }}.html">{{ app.author.name }}</a>
+              </span>
             </h5>
             <p class="card-text">{{ app.short }}</p>
             <a href="./{{ app.id }}.html" class="btn btn-light">
