@@ -12,9 +12,11 @@
     </h1>
 
     <p>{{ author.short }}</p>
-    {% markdown %}
-      {{ author.about }}
-    {% endmarkdown %}
+    {% if author.about %}
+      {% markdown %}
+        {{ author.about }}
+      {% endmarkdown %}
+    {% endif %}
 
     {% for name, url in author.links.items() %}
     <a class="btn btn-light" href="{{ url }}">

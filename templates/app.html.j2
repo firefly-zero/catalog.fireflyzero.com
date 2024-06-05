@@ -12,7 +12,9 @@
       <ul class="list-unstyled">
         <li>
         <i class="fa-solid fa-user"></i>
-          {{ app.author.name }}
+          <a href="/{{ app.author.id }}.html">
+            {{ app.author.name }}
+          </a>
         </li>
         <li>
         <i class="fa-solid fa-calendar-plus"></i>
@@ -37,7 +39,7 @@
         <i class="fa-solid fa-download"></i>
         download
       </a>
-      {% for name, url in app.links.items() %}
+      {% for name, url in (app.links or {}).items() %}
         <a href="{{ url }}" target="_blank" class="btn btn-light">
           {% if get_icon(name, url) %}
             <i class="{{ get_icon(name, url) }}"></i>
