@@ -5,25 +5,29 @@ from pathlib import Path
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from jinja_markdown2 import MarkdownExtension  # type: ignore[import-untyped]
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Author(BaseModel):
-    id: str = Field(pattern=r'.{1,16}')
+    id: str = Field(pattern=r'^.{1,16}$')
     name: str = Field(min_length=2, max_length=40)
-    github: str | None = Field(pattern=r'https://github\.com/.+')
-    homepage: str | None = Field(pattern=r'https://.+\..+')
+    pronouns: str | None = Field(pattern='^[a-z]{1,8}/[a-z]{1,8}$')
+    links: dict[str, str] = Field(min_length=1, max_length=16)
+
+    model_config = ConfigDict(extra='forbid')
 
 
 class App(BaseModel):
-    id: str = Field(pattern=r'.{1,16}\..{1,16}')
+    id: str = Field(pattern=r'^.{1,16}\..{1,16}$')
     name: str = Field(min_length=2, max_length=40)
     author: Author
     short: str = Field(min_length=4, max_length=140)
-    added: str = Field(pattern=r'20[234][0-9]-[01][0-9]-[0123][0-9]')
-    repo: str | None = Field(pattern=r'https://.+\..+', default=None)
-    download: str = Field(pattern=r'https://.+\..+')
+    added: str = Field(pattern=r'^20[234][0-9]-[01][0-9]-[0123][0-9]$')
+    repo: str | None = Field(pattern=r'^https://.+\.', default=None)
+    download: str = Field(pattern=r'^https://.+\.')
     desc: str = Field(min_length=10, max_length=10_000)
+
+    model_config = ConfigDict(extra='forbid')
 
     @property
     def direct(self) -> bool:
