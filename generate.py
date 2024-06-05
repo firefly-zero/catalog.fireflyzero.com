@@ -13,6 +13,7 @@ class Author(BaseModel):
     name: str = Field(min_length=2, max_length=40)
     pronouns: str | None = Field(pattern='^[a-z]{1,8}/[a-z]{1,8}$')
     links: dict[str, str] = Field(min_length=1, max_length=16)
+    about: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
 
