@@ -9,7 +9,7 @@
       </h5>
       <p class="card-text">{{ app.short }}</p>
       <a href="./{{ app.id }}.html" class="btn btn-light">
-        <img src="./assets/info-circle.svg" class="icon"/>
+        <i class="fa-solid fa-circle-info"></i>
         info
       </a>
       <a
@@ -17,7 +17,7 @@
         {% if app.direct %}download{% else %}target="_blank"{% endif %}
         class="btn btn-light"
       >
-        <img src="./assets/download.svg" class="icon"/>
+        <i class="fa-solid fa-download"></i>
         get
       </a>
     </div>

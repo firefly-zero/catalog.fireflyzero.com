@@ -30,4 +30,4 @@ How to:
 1. The template engine is [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/).
 1. The data is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files.
 1. For CSS styling, we use [Bootstrap](https://getbootstrap.com/). It's a bit fat (36 KB compressed) and requires divs in divs but nice looking, easy to use, and does not require using the fat NPM ecosystem.
-1. For icons, we use [Iconoir](https://iconoir.com/). They are nice-looking and small. We only use a few icons per page, so there is no need to bring the whole [FontAwesome](https://fontawesome.com/) pack or bother with [IcoMoon](https://icomoon.io/).
+1. For icons, we use [FontAwesome](https://fontawesome.com/).

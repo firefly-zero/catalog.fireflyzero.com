@@ -18,8 +18,8 @@
 
     {% for name, url in author.links.items() %}
     <a class="btn btn-light" href="{{ url }}">
-      {% if author.get_icon(name, url) %}
-        <img src="./assets/{{ author.get_icon(name, url) }}" class="icon"/>
+      {% if get_icon(name, url) %}
+        <i class="{{ get_icon(name, url) }}"></i>
       {% endif %}
       {{ name }}
     </a>

@@ -9,9 +9,20 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 ICONS = {
-    'github.com': 'github.svg',
-    'gitlab.com': 'gitlab-full.svg',
+    'github.com': 'fa-brands fa-github',
+    'gitlab.com': 'fa-brands fa-gitlab',
+    'home': 'fa-solid fa-home',
+    'homepage': 'fa-solid fa-home',
 }
+
+
+def get_icon(name: str, url: str) -> str | None:
+    icon = ICONS.get(name)
+    if icon is not None:
+        return icon
+    url = url.removeprefix('https://')
+    url = url.split('/')[0]
+    return ICONS.get(url)
 
 
 class Author(BaseModel):
@@ -23,15 +34,6 @@ class Author(BaseModel):
     about: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
-
-    @staticmethod
-    def get_icon(name: str, url: str) -> str | None:
-        icon = ICONS.get(name)
-        if icon is not None:
-            return icon
-        url = url.removeprefix('https://')
-        url = url.split('/')[0]
-        return ICONS.get(url)
 
 
 class App(BaseModel):
@@ -95,7 +97,7 @@ content = template.render(apps=apps)
 # render page for each app
 template = env.get_template('app.html.j2')
 for app in apps:
-    content = template.render(app=app)
+    content = template.render(app=app, get_icon=get_icon)
     (out_dir / f'{app.id}.html').write_text(content)
     (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
 
@@ -108,6 +110,10 @@ content = template.render(authors=authors)
 template = env.get_template('author.html.j2')
 for author in authors:
     author_apps = [app for app in apps if app.author.id == author.id]
-    content = template.render(author=author, apps=author_apps)
+    content = template.render(
+        author=author,
+        apps=author_apps,
+        get_icon=get_icon,
+    )
     (out_dir / f'{author.id}.html').write_text(content)
     (out_dir / f'{author.id}.json').write_text(author.model_dump_json())

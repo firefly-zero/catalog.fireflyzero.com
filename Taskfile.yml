@@ -19,7 +19,6 @@ tasks:
     cmds:
       - mkdir -p public
       - python3 generate.py
-      - cp -r assets public/
 
   default:
     - task: build
