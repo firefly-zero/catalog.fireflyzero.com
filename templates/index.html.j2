@@ -2,31 +2,7 @@
 {% block body %}
   <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
     {% for app in apps %}
-      <div class="col col-md-4">
-        <article class="card">
-          <div class="card-body">
-            <h5 class="card-title">
-              {{ app.name }}<br/>
-              <span class="fs-6">
-                by <a href="{{ app.author.id }}.html">{{ app.author.name }}</a>
-              </span>
-            </h5>
-            <p class="card-text">{{ app.short }}</p>
-            <a href="./{{ app.id }}.html" class="btn btn-light">
-              <img src="./assets/info-circle.svg" class="icon"/>
-              info
-            </a>
-            <a
-              href="{{ app.download }}"
-              {% if app.direct %}download{% else %}target="_blank"{% endif %}
-              class="btn btn-light"
-            >
-              <img src="./assets/download.svg" class="icon"/>
-              get
-            </a>
-          </div>
-        </article>
-      </div>
+      {% include 'app-card.html.j2' %}
     {% endfor %}
   </main>
   <footer class="mb-1 mt-1">

@@ -20,7 +20,13 @@
       {{ name }}
     </a>
     {% endfor %}
-
   </div>
 </div>
+
+<div class="row row-cols-1 row-cols-md-4 g-1 mt-1">
+  {% for app in apps %}
+  {% include 'app-card.html.j2' %}
+  {% endfor %}
+</div>
+
 {% endblock %}

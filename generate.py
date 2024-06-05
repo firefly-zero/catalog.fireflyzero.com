@@ -83,6 +83,7 @@ for app in apps:
 
 template = env.get_template('author.html.j2')
 for author in authors:
-    content = template.render(author=author)
+    author_apps = [app for app in apps if app.author.id == author.id]
+    content = template.render(author=author, apps=author_apps)
     (out_dir / f'{author.id}.html').write_text(content)
     (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
