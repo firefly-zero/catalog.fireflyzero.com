@@ -2,6 +2,9 @@
   <article class="card">
     <div class="card-body">
       <h5 class="card-title">
+        {% if app.icon %}
+          <i class="{{ app.icon }}"></i>
+        {% endif %}
         {{ app.name }}<br/>
         <span class="fs-6">
           by <a href="{{ app.author.id }}.html">{{ app.author.name }}</a>

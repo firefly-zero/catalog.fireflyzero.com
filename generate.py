@@ -28,7 +28,7 @@ def get_icon(name: str, url: str) -> str | None:
 class Author(BaseModel):
     id: str = Field(pattern=r'^.{1,16}$')
     name: str = Field(min_length=2, max_length=40)
-    pronouns: str | None = Field(pattern='^[a-z]{1,8}/[a-z]{1,8}$')
+    pronouns: str | None = Field(pattern=r'^[a-z]{1,8}/[a-z]{1,8}$')
     links: dict[str, str] = Field(min_length=1, max_length=16)
     short: str = Field(min_length=4, max_length=140)
     about: str = Field(min_length=10, max_length=10_000)
@@ -44,6 +44,7 @@ class App(BaseModel):
     added: str = Field(pattern=r'^20[234][0-9]-[01][0-9]-[0123][0-9]$')
     repo: str | None = Field(pattern=r'^https://.+\.', default=None)
     download: str = Field(pattern=r'^https://.+\.')
+    icon: str | None = Field(pattern=r'^fa-')
     desc: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
