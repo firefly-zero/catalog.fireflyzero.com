@@ -11,26 +11,30 @@
       </h1>
       <ul class="list-unstyled">
         <li>
-          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-fw fa-user" title="author"></i>
           <a href="/{{ app.author.id }}.html">
             {{ app.author.name }}
           </a>
         </li>
         <li>
-          <i class="fa-solid fa-calendar-plus"></i>
+          <i class="fa-solid fa-fw fa-calendar-plus" title="date added"></i>
           {{ app.added }}
         </li>
         <li>
-          <i class="fa-solid fa-circle-info"></i>
+          <i class="fa-solid fa-fw fa-circle-info" title="short description"></i>
           {{ app.short }}
         </li>
-        <li>
-          <i class="fa-solid fa-tag"></i>
-          |
-          {% for category in categories %}
-            {{ category.name }} |
-          {% endfor %}
-        </li>
+        {% for category in categories %}
+          <li>
+            {% if category.icon %}
+              <i class="{{ category.icon }} fa-fw" title="category"></i>
+            {% else %}
+              <i class="fa-solid fa-fw fa-tag" title="category"></i>
+            {% endif %}
+            <span class="text-muted">{{ category.group_slug.replace('-', ' ').title() }}:</span> 
+            {{ category.name }}
+          </li>
+        {% endfor %}
       </ul>
 
       {% markdown %}

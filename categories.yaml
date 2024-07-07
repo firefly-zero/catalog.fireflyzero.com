@@ -2,28 +2,40 @@
 genre:
   action:
     name: Action
+    icon: fa-solid fa-person-running
   adventure:
     name: Adventure
+    icon: fa-solid fa-map
   educational:
     name: Educational
+    icon: fa-solid fa-user-graduate
   idle:
     name: Idle
+    icon: fa-solid fa-hourglass-half
   puzzle:
     name: Puzzle
+    icon: fa-solid fa-puzzle-piece
   racing:
     name: Racing
+    icon: fa-solid fa-flag-checkered
   rpg:
     name: Role-playing
+    icon: fa-solid fa-hat-wizard
   simulation:
     name: Simulation
+    icon: fa-solid fa-plane
   sports:
     name: Sports
+    icon: fa-solid fa-person-snowboarding
   strategy:
     name: Strategy
+    icon: fa-solid fa-chess
   utility:
     name: Apps / Utility
+    icon: fa-solid fa-hammer
   other:
     name: Other / Unexplainable
+    icon: fa-solid fa-calculator
 perspective:
   1st-person:
     name: 1st-person

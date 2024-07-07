@@ -29,6 +29,9 @@ class Category(BaseModel):
     group_slug: str = Field(pattern=r'^[a-z-]{3,}$')
     slug: str = Field(pattern=r'^[a-zA-Z0-9-]{1,}$')
     name: str = Field(min_length=1)
+    icon: str | None = Field(pattern=r'^fa.+$', default=None)
+
+    model_config = ConfigDict(extra='forbid')
 
     @property
     def full_slug(self) -> str:
