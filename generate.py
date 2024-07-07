@@ -30,6 +30,10 @@ class Category(BaseModel):
     slug: str = Field(pattern=r'^[a-zA-Z0-9-]{1,}$')
     name: str = Field(min_length=1)
 
+    @property
+    def full_slug(self) -> str:
+        return f'{self.group_slug}/{self.slug}'
+
 
 class Author(BaseModel):
     id: str = Field(pattern=r'^.{1,16}$')
@@ -65,6 +69,16 @@ class App(BaseModel):
         return self.download.endswith('.zip')
 
 
+class Categories(BaseModel):
+    categories: list[Category] = Field(min_length=20)
+
+    def get(self, full_slug: str) -> Category:
+        for cat in self.categories:
+            if cat.full_slug == full_slug:
+                return cat
+        raise LookupError
+
+
 env = Environment(loader=FileSystemLoader('templates'))
 env.add_extension(MarkdownExtension)
 public_dir = Path('public')
@@ -95,7 +109,7 @@ def load_authors() -> list[Author]:
     return authors
 
 
-def load_categories() -> list[Category]:
+def load_categories() -> Categories:
     categories = []
     groups = yaml.safe_load(Path('categories.yaml').read_text())
     for group_slug, group in groups.items():
@@ -105,7 +119,7 @@ def load_categories() -> list[Category]:
                 slug=slug,
                 **category,
             ))
-    return categories
+    return Categories(categories=categories)
 
 
 def main() -> None:
@@ -122,7 +136,12 @@ def main() -> None:
     # render page for each app
     template = env.get_template('app.html.j2')
     for app in apps:
-        content = template.render(app=app, get_icon=get_icon)
+        app_cats = [categories.get(slug) for slug in app.categories]
+        content = template.render(
+            app=app,
+            get_icon=get_icon,
+            categories=app_cats,
+        )
         (out_dir / f'{app.id}.html').write_text(content)
         (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
 

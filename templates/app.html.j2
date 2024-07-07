@@ -11,18 +11,25 @@
       </h1>
       <ul class="list-unstyled">
         <li>
-        <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-user"></i>
           <a href="/{{ app.author.id }}.html">
             {{ app.author.name }}
           </a>
         </li>
         <li>
-        <i class="fa-solid fa-calendar-plus"></i>
+          <i class="fa-solid fa-calendar-plus"></i>
           {{ app.added }}
         </li>
         <li>
-        <i class="fa-solid fa-circle-info"></i>
+          <i class="fa-solid fa-circle-info"></i>
           {{ app.short }}
+        </li>
+        <li>
+          <i class="fa-solid fa-tag"></i>
+          |
+          {% for category in categories %}
+            {{ category.name }} |
+          {% endfor %}
         </li>
       </ul>
 
