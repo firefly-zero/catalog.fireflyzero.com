@@ -1,377 +1,737 @@
 # https://www.mobygames.com/genre/
 basic_genre:
-  - Action
-  - Add-on
-  - Adventure
-  - Compilation
-  - Educational
-  - Idle
-  - Puzzle
-  - Racing
-  - Role-playing
-  - Simulation
-  - Sports
-  - Strategy
+  action:
+    name: Action
+  adventure:
+    name: Adventure
+  compilation:
+    name: Compilation
+  educational:
+    name: Educational
+  idle:
+    name: Idle
+  puzzle:
+    name: Puzzle
+  racing:
+    name: Racing
+  rpg:
+    name: Role-playing
+  simulation:
+    name: Simulation
+  sports:
+    name: Sports
+  strategy:
+    name: Strategy
 perspective:
-  - 1st-person
-  - 3rd-person
-  - Audio game
-  - Behind view
-  - Diagonal-down
-  - Side view
-  - Text-based
-  - Top-down
+  1st-person:
+    name: 1st-person
+  3rd-person:
+    name: 3rd-person
+  audio-game:
+    name: Audio game
+  behind-view:
+    name: Behind view
+  diagonal-down:
+    name: Diagonal-down
+  side-view:
+    name: Side view
+  text-based:
+    name: Text-based
+  top-down:
+    name: Top-down
 pacing:
-  - Meditative
-  - Persistent
-  - Real-time
-  - Turn-based
+  meditative:
+    name: Meditative
+  persistent:
+    name: Persistent
+  real-time:
+    name: Real-time
+  turn-based:
+    name: Turn-based
 gameplay:
-  - 4X
-  - Action RPG
-  - Arcade
-  - Artillery
-  - Beat 'em up / brawler
-  - Board game
-  - Cards / tiles
-  - Chess
-  - City building / construction simulation
-  - Dating simulation
-  - Falling block puzzle
-  - Fighting
-  - Gambling elements
-  - Game show / trivia / quiz
-  - Graphic adventure
-  - Hack and slash
-  - Hidden object
-  - Hunting
-  - Interactive book
-  - Interactive fiction / text adventure
-  - Japanese-style RPG
-  - Japanese-style adventure
-  - Life / social simulation
-  - Managerial / business simulation
-  - Massively Multiplayer
-  - Mental training
-  - Metroidvania
-  - Mini-games
-  - Music / rhythm
-  - Paddle / Pong
-  - Party game
-  - Pinball
-  - Platform
-  - Puzzle elements
-  - Quick Time Events
-  - RPG elements
-  - Rail shooter
-  - Real-time strategy
-  - Real-time tactics
-  - Roguelike
-  - Sandbox / open world
-  - Shooter
-  - Stealth
-  - Survival horror
-  - Tactical RPG
-  - Tactical shooter
-  - Tile matching puzzle
-  - Time management
-  - Timed input
-  - Tower defense
-  - Trading / collectible card
-  - Tricks / stunts
-  - Turn-based strategy
-  - Turn-based tactics
-  - Visual novel
-  - Wargame
-  - Word construction
+  4x:
+    name: 4X
+  action-rpg:
+    name: Action RPG
+  arcade:
+    name: Arcade
+  artillery:
+    name: Artillery
+  beat-em-up:
+    name: Beat 'em up / brawler
+  board game:
+    name: Board game
+  cards:
+    name: Cards / tiles
+  chess:
+    name: Chess
+  city-building:
+    name: City building / construction simulation
+  dating-simulation:
+    name: Dating simulation
+  falling-block:
+    name: Falling block puzzle
+  fighting:
+    name: Fighting
+  gambling:
+    name: Gambling elements
+  trivia:
+    name: Game show / trivia / quiz
+  graphic-adventure:
+    name: Graphic adventure
+  hack-and-slash:
+    name: Hack and slash
+  hidden-object:
+    name: Hidden object
+  hunting:
+    name: Hunting
+  interactive-book:
+    name: Interactive book
+  interactive-fiction:
+    name: Interactive fiction / text adventure
+  japanese-rpg:
+    name: Japanese-style RPG
+  japanese-adventure:
+    name: Japanese-style adventure
+  life-simulation:
+    name: Life / social simulation
+  business-simulation:
+    name: Managerial / business simulation
+  massively-multiplayer:
+    name: Massively Multiplayer
+  mental-training:
+    name: Mental training
+  metroidvania:
+    name: Metroidvania
+  mini-games:
+    name: Mini-games
+  music:
+    name: Music / rhythm
+  pong:
+    name: Paddle / Pong
+  party:
+    name: Party game
+  pinball:
+    name: Pinball
+  platform:
+    name: Platform
+  puzzle:
+    name: Puzzle elements
+  qte:
+    name: Quick Time Events
+  rpg:
+    name: RPG elements
+  rail-shooter:
+    name: Rail shooter
+  rts:
+    name: Real-time strategy
+  rtt:
+    name: Real-time tactics
+  roguelike:
+    name: Roguelike
+  sandbox:
+    name: Sandbox / open world
+  shooter:
+    name: Shooter
+  stealth:
+    name: Stealth
+  survival-horror:
+    name: Survival horror
+  tactical-rpg:
+    name: Tactical RPG
+  tactical-shooter:
+    name: Tactical shooter
+  tile-matching:
+    name: Tile matching puzzle
+  time-management:
+    name: Time management
+  timed-input:
+    name: Timed input
+  tower-defense:
+    name: Tower defense
+  trading:
+    name: Trading / collectible card
+  tricks:
+    name: Tricks / stunts
+  turn-based-strategy:
+    name: Turn-based strategy
+  turn-based-tactics:
+    name: Turn-based tactics
+  visual-novel:
+    name: Visual novel
+  wargame:
+    name: Wargame
+  word-construction:
+    name: Word construction
 sport:
-  - Athletics
-  - Baseball
-  - Basketball
-  - Bowling
-  - Boxing
-  - Cricket
-  - Darts / target shooting
-  - Dodgeball
-  - Fishing
-  - Football
-  - Football
-  - Golf
-  - Hockey
-  - Horse / derby
-  - Olympiad / mixed sports
-  - Paintball
-  - Ping pong / table tennis
-  - Pool / snooker
-  - Racquetball / squash
-  - Rugby
-  - Sailing / boating
-  - Skateboarding
-  - Snowboarding / skiing
-  - Surfing
-  - Tennis
-  - Volleyball
-  - Wakeboarding
-  - Wrestling
+  athletics:
+    name: Athletics
+  baseball:
+    name: Baseball
+  basketball:
+    name: Basketball
+  bowling:
+    name: Bowling
+  boxing:
+    name: Boxing
+  cricket:
+    name: Cricket
+  darts / target shooting:
+    name: Darts / target shooting
+  dodgeball:
+    name: Dodgeball
+  fishing:
+    name: Fishing
+  football:
+    name: Football
+  football:
+    name: Football
+  golf:
+    name: Golf
+  hockey:
+    name: Hockey
+  horse / derby:
+    name: Horse / derby
+  olympiad / mixed sports:
+    name: Olympiad / mixed sports
+  paintball:
+    name: Paintball
+  ping pong / table tennis:
+    name: Ping pong / table tennis
+  pool / snooker:
+    name: Pool / snooker
+  racquetball / squash:
+    name: Racquetball / squash
+  rugby:
+    name: Rugby
+  sailing / boating:
+    name: Sailing / boating
+  skateboarding:
+    name: Skateboarding
+  snowboarding / skiing:
+    name: Snowboarding / skiing
+  surfing:
+    name: Surfing
+  tennis:
+    name: Tennis
+  volleyball:
+    name: Volleyball
+  wakeboarding:
+    name: Wakeboarding
+  wrestling:
+    name: Wrestling
 educational_category:
-  - Ecology / nature
-  - Foreign language
-  - Geography
-  - Graphics / art
-  - Health / nutrition
-  - History
-  - Math / logic
-  - Music
-  - Pre-school / toddler
-  - Reading / writing
-  - Religion
-  - Science
-  - Sociology
-  - Typing
+  ecology / nature:
+    name: Ecology / nature
+  foreign language:
+    name: Foreign language
+  geography:
+    name: Geography
+  graphics / art:
+    name: Graphics / art
+  health / nutrition:
+    name: Health / nutrition
+  history:
+    name: History
+  math / logic:
+    name: Math / logic
+  music:
+    name: Music
+  pre-school / toddler:
+    name: Pre-school / toddler
+  reading / writing:
+    name: Reading / writing
+  religion:
+    name: Religion
+  science:
+    name: Science
+  sociology:
+    name: Sociology
+  typing:
+    name: Typing
 vehicle:
-  - Agricultural / industrial
-  - Automobile
-  - Bike / bicycling
-  - Bus
-  - Flight / aviation
-  - Helicopter
-  - Hovercraft
-  - Mecha / giant robot
-  - Motorcycle
-  - Naval / watercraft
-  - Off-roading
-  - Self-propelled artillery
-  - Snowmobile
-  - Space flight
-  - Street racing
-  - Tank
-  - Track racing
-  - Train
-  - Transport
-  - Truck
-  - Vehicle simulator
-  - Vehicular combat
+  agricultural / industrial:
+    name: Agricultural / industrial
+  automobile:
+    name: Automobile
+  bike / bicycling:
+    name: Bike / bicycling
+  bus:
+    name: Bus
+  flight / aviation:
+    name: Flight / aviation
+  helicopter:
+    name: Helicopter
+  hovercraft:
+    name: Hovercraft
+  mecha / giant robot:
+    name: Mecha / giant robot
+  motorcycle:
+    name: Motorcycle
+  naval / watercraft:
+    name: Naval / watercraft
+  off-roading:
+    name: Off-roading
+  self-propelled artillery:
+    name: Self-propelled artillery
+  snowmobile:
+    name: Snowmobile
+  space flight:
+    name: Space flight
+  street racing:
+    name: Street racing
+  tank:
+    name: Tank
+  track racing:
+    name: Track racing
+  train:
+    name: Train
+  transport:
+    name: Transport
+  truck:
+    name: Truck
+  vehicle simulator:
+    name: Vehicle simulator
+  vehicular combat:
+    name: Vehicular combat
 setting:
-  - Africa
-  - Age of Discovery / Enlightenment
-  - Asia
-  - China (Ancient / Imperial)
-  - Classical antiquity
-  - Cold War
-  - Contemporary
-  - Cyberpunk / dark sci-fi
-  - Egypt (Ancient)
-  - Europe
-  - Fantasy
-  - Historical events
-  - Industrial Age
-  - Interwar
-  - Japan (Ancient/Classical/Medieval)
-  - Japan (Modern/Futuristic)
-  - Medieval
-  - Middle East
-  - North America
-  - Oceania
-  - Post-apocalyptic
-  - Pre-Columbian Americas
-  - Prehistoric
-  - Sci-fi / futuristic
-  - Sea pirates / Caribbean
-  - South America
-  - Steampunk
-  - Western
-  - World War I
-  - World War II
+  africa:
+    name: Africa
+  age of discovery / enlightenment:
+    name: Age of Discovery / Enlightenment
+  asia:
+    name: Asia
+  china (ancient / imperial):
+    name: China (Ancient / Imperial)
+  classical antiquity:
+    name: Classical antiquity
+  cold war:
+    name: Cold War
+  contemporary:
+    name: Contemporary
+  cyberpunk / dark sci-fi:
+    name: Cyberpunk / dark sci-fi
+  egypt (ancient):
+    name: Egypt (Ancient)
+  europe:
+    name: Europe
+  fantasy:
+    name: Fantasy
+  historical events:
+    name: Historical events
+  industrial age:
+    name: Industrial Age
+  interwar:
+    name: Interwar
+  japan (ancient/classical/medieval):
+    name: Japan (Ancient/Classical/Medieval)
+  japan (modern/futuristic):
+    name: Japan (Modern/Futuristic)
+  medieval:
+    name: Medieval
+  middle east:
+    name: Middle East
+  north america:
+    name: North America
+  oceania:
+    name: Oceania
+  post-apocalyptic:
+    name: Post-apocalyptic
+  pre-columbian americas:
+    name: Pre-Columbian Americas
+  prehistoric:
+    name: Prehistoric
+  sci-fi / futuristic:
+    name: Sci-fi / futuristic
+  sea pirates / caribbean:
+    name: Sea pirates / Caribbean
+  south america:
+    name: South America
+  steampunk:
+    name: Steampunk
+  western:
+    name: Western
+  world war i:
+    name: World War I
+  world war ii:
+    name: World War II
 theme:
-  - Adult
-  - Comedy
-  - Crime
-  - Detective / mystery
-  - Healthcare
-  - Horror
-  - Martial arts
-  - Romance
-  - Spy / espionage
-  - Survival
-  - Thriller
-  - War
+  adult:
+    name: Adult
+  comedy:
+    name: Comedy
+  crime:
+    name: Crime
+  detective / mystery:
+    name: Detective / mystery
+  healthcare:
+    name: Healthcare
+  horror:
+    name: Horror
+  martial arts:
+    name: Martial arts
+  romance:
+    name: Romance
+  spy / espionage:
+    name: Spy / espionage
+  survival:
+    name: Survival
+  thriller:
+    name: Thriller
+  war:
+    name: War
 programming_language:
-  - Blockly
-  - C
-  - C#
-  - C++
-  - Elixir
-  - Go
-  - Haskell
-  - Java
-  - JavaScript
-  - Julia
-  - Lua
-  - Python
-  - Ruby
-  - Rust
-  - Swift
-  - TypeScript
-  - Zig
+  blockly:
+    name: Blockly
+  c:
+    name: C
+  c#:
+    name: C#
+  c++:
+    name: C++
+  elixir:
+    name: Elixir
+  go:
+    name: Go
+  haskell:
+    name: Haskell
+  java:
+    name: Java
+  javascript:
+    name: JavaScript
+  julia:
+    name: Julia
+  lua:
+    name: Lua
+  python:
+    name: Python
+  ruby:
+    name: Ruby
+  rust:
+    name: Rust
+  swift:
+    name: Swift
+  typescript:
+    name: TypeScript
+  zig:
+    name: Zig
 license:
-  - MIT
-  - GPL
+  mit:
+    name: MIT
+  gpl:
+    name: GPL
 development_status:
-  - Planning
-  - Pre-Alpha
-  - Alpha
-  - Beta
-  - Production/Stable
-  - Mature
-  - Inactive
+  planning:
+    name: Planning
+  pre-alpha:
+    name: Pre-Alpha
+  alpha:
+    name: Alpha
+  beta:
+    name: Beta
+  production/stable:
+    name: Production/Stable
+  mature:
+    name: Mature
+  inactive:
+    name: Inactive
 license:
-  - Aladdin Free Public License (AFPL)
-  - CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-  - CeCILL-B Free Software License Agreement (CECILL-B)
-  - CeCILL-C Free Software License Agreement (CECILL-C)
-  - DFSG approved
-  - Eiffel Forum License (EFL)
-  - Free For Educational Use
-  - Free For Home Use
-  - Free To Use But Restricted
-  - Free for non-commercial use
-  - Freely Distributable
-  - Freeware
-  - GUST Font License 1.0
-  - GUST Font License 2006-09-30
-  - Netscape Public License (NPL)
-  - Nokia Open Source License (NOKOS)
-  - OSI Approved
-  - Academic Free License (AFL)
-  - Apache Software License
-  - Apple Public Source License
-  - Artistic License
-  - Attribution Assurance License
-  - BSD License
-  - Blue Oak Model License (BlueOak-1.0.0)
-  - Boost Software License 1.0 (BSL-1.0)
-  - CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
-  - Common Development and Distribution License 1.0 (CDDL-1.0)
-  - Common Public License
-  - Eclipse Public License 1.0 (EPL-1.0)
-  - Eclipse Public License 2.0 (EPL-2.0)
-  - Educational Community License, Version 2.0 (ECL-2.0)
-  - Eiffel Forum License
-  - European Union Public Licence 1.0 (EUPL 1.0)
-  - European Union Public Licence 1.1 (EUPL 1.1)
-  - European Union Public Licence 1.2 (EUPL 1.2)
-  - GNU Affero General Public License v3
-  - GNU Affero General Public License v3 or later (AGPLv3+)
-  - GNU Free Documentation License (FDL)
-  - GNU General Public License (GPL)
-  - GNU General Public License v2 (GPLv2)
-  - GNU General Public License v2 or later (GPLv2+)
-  - GNU General Public License v3 (GPLv3)
-  - GNU General Public License v3 or later (GPLv3+)
-  - GNU Lesser General Public License v2 (LGPLv2)
-  - GNU Lesser General Public License v2 or later (LGPLv2+)
-  - GNU Lesser General Public License v3 (LGPLv3)
-  - GNU Lesser General Public License v3 or later (LGPLv3+)
-  - GNU Library or Lesser General Public License (LGPL)
-  - Historical Permission Notice and Disclaimer (HPND)
-  - IBM Public License
-  - ISC License (ISCL)
-  - Intel Open Source License
-  - Jabber Open Source License
-  - MIT License
-  - MIT No Attribution License (MIT-0)
-  - MITRE Collaborative Virtual Workspace License (CVW)
-  - MirOS License (MirOS)
-  - Motosoto License
-  - Mozilla Public License 1.0 (MPL)
-  - Mozilla Public License 1.1 (MPL 1.1)
-  - Mozilla Public License 2.0 (MPL 2.0)
-  - Mulan Permissive Software License v2 (MulanPSL-2.0)
-  - NASA Open Source Agreement v1.3 (NASA-1.3)
-  - Nethack General Public License
-  - Nokia Open Source License
-  - Open Group Test Suite License
-  - Open Software License 3.0 (OSL-3.0)
-  - PostgreSQL License
-  - Python License (CNRI Python License)
-  - Python Software Foundation License
-  - Qt Public License (QPL)
-  - Ricoh Source Code Public License
-  - SIL Open Font License 1.1 (OFL-1.1)
-  - Sleepycat License
-  - Sun Industry Standards Source License (SISSL)
-  - Sun Public License
-  - The Unlicense (Unlicense)
-  - Universal Permissive License (UPL)
-  - University of Illinois/NCSA Open Source License
-  - Vovida Software License 1.0
-  - W3C License
-  - X.Net License
-  - Zero-Clause BSD (0BSD)
-  - Zope Public License
-  - zlib/libpng License
-  - Other/Proprietary License
-  - Public Domain
-  - Repoze Public License
+  aladdin free public license (afpl):
+    name: Aladdin Free Public License (AFPL)
+  cc0 1.0 universal (cc0 1.0) public domain dedication:
+    name: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+  cecill-b free software license agreement (cecill-b):
+    name: CeCILL-B Free Software License Agreement (CECILL-B)
+  cecill-c free software license agreement (cecill-c):
+    name: CeCILL-C Free Software License Agreement (CECILL-C)
+  dfsg approved:
+    name: DFSG approved
+  eiffel forum license (efl):
+    name: Eiffel Forum License (EFL)
+  free for educational use:
+    name: Free For Educational Use
+  free for home use:
+    name: Free For Home Use
+  free to use but restricted:
+    name: Free To Use But Restricted
+  free for non-commercial use:
+    name: Free for non-commercial use
+  freely distributable:
+    name: Freely Distributable
+  freeware:
+    name: Freeware
+  gust font license 1.0:
+    name: GUST Font License 1.0
+  gust font license 2006-09-30:
+    name: GUST Font License 2006-09-30
+  netscape public license (npl):
+    name: Netscape Public License (NPL)
+  nokia open source license (nokos):
+    name: Nokia Open Source License (NOKOS)
+  osi approved:
+    name: OSI Approved
+  academic free license (afl):
+    name: Academic Free License (AFL)
+  apache software license:
+    name: Apache Software License
+  apple public source license:
+    name: Apple Public Source License
+  artistic license:
+    name: Artistic License
+  attribution assurance license:
+    name: Attribution Assurance License
+  bsd license:
+    name: BSD License
+  blue oak model license (blueoak-1.0.0):
+    name: Blue Oak Model License (BlueOak-1.0.0)
+  boost software license 1.0 (bsl-1.0):
+    name: Boost Software License 1.0 (BSL-1.0)
+  cea cnrs inria logiciel libre license, version 2.1 (cecill-2.1):
+    name: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+  common development and distribution license 1.0 (cddl-1.0):
+    name: Common Development and Distribution License 1.0 (CDDL-1.0)
+  common public license:
+    name: Common Public License
+  eclipse public license 1.0 (epl-1.0):
+    name: Eclipse Public License 1.0 (EPL-1.0)
+  eclipse public license 2.0 (epl-2.0):
+    name: Eclipse Public License 2.0 (EPL-2.0)
+  educational community license, version 2.0 (ecl-2.0):
+    name: Educational Community License, Version 2.0 (ECL-2.0)
+  eiffel forum license:
+    name: Eiffel Forum License
+  european union public licence 1.0 (eupl 1.0):
+    name: European Union Public Licence 1.0 (EUPL 1.0)
+  european union public licence 1.1 (eupl 1.1):
+    name: European Union Public Licence 1.1 (EUPL 1.1)
+  european union public licence 1.2 (eupl 1.2):
+    name: European Union Public Licence 1.2 (EUPL 1.2)
+  gnu affero general public license v3:
+    name: GNU Affero General Public License v3
+  gnu affero general public license v3 or later (agplv3+):
+    name: GNU Affero General Public License v3 or later (AGPLv3+)
+  gnu free documentation license (fdl):
+    name: GNU Free Documentation License (FDL)
+  gnu general public license (gpl):
+    name: GNU General Public License (GPL)
+  gnu general public license v2 (gplv2):
+    name: GNU General Public License v2 (GPLv2)
+  gnu general public license v2 or later (gplv2+):
+    name: GNU General Public License v2 or later (GPLv2+)
+  gnu general public license v3 (gplv3):
+    name: GNU General Public License v3 (GPLv3)
+  gnu general public license v3 or later (gplv3+):
+    name: GNU General Public License v3 or later (GPLv3+)
+  gnu lesser general public license v2 (lgplv2):
+    name: GNU Lesser General Public License v2 (LGPLv2)
+  gnu lesser general public license v2 or later (lgplv2+):
+    name: GNU Lesser General Public License v2 or later (LGPLv2+)
+  gnu lesser general public license v3 (lgplv3):
+    name: GNU Lesser General Public License v3 (LGPLv3)
+  gnu lesser general public license v3 or later (lgplv3+):
+    name: GNU Lesser General Public License v3 or later (LGPLv3+)
+  gnu library or lesser general public license (lgpl):
+    name: GNU Library or Lesser General Public License (LGPL)
+  historical permission notice and disclaimer (hpnd):
+    name: Historical Permission Notice and Disclaimer (HPND)
+  ibm public license:
+    name: IBM Public License
+  isc license (iscl):
+    name: ISC License (ISCL)
+  intel open source license:
+    name: Intel Open Source License
+  jabber open source license:
+    name: Jabber Open Source License
+  mit license:
+    name: MIT License
+  mit no attribution license (mit-0):
+    name: MIT No Attribution License (MIT-0)
+  mitre collaborative virtual workspace license (cvw):
+    name: MITRE Collaborative Virtual Workspace License (CVW)
+  miros license (miros):
+    name: MirOS License (MirOS)
+  motosoto license:
+    name: Motosoto License
+  mozilla public license 1.0 (mpl):
+    name: Mozilla Public License 1.0 (MPL)
+  mozilla public license 1.1 (mpl 1.1):
+    name: Mozilla Public License 1.1 (MPL 1.1)
+  mozilla public license 2.0 (mpl 2.0):
+    name: Mozilla Public License 2.0 (MPL 2.0)
+  mulan permissive software license v2 (mulanpsl-2.0):
+    name: Mulan Permissive Software License v2 (MulanPSL-2.0)
+  nasa open source agreement v1.3 (nasa-1.3):
+    name: NASA Open Source Agreement v1.3 (NASA-1.3)
+  nethack general public license:
+    name: Nethack General Public License
+  nokia open source license:
+    name: Nokia Open Source License
+  open group test suite license:
+    name: Open Group Test Suite License
+  open software license 3.0 (osl-3.0):
+    name: Open Software License 3.0 (OSL-3.0)
+  postgresql license:
+    name: PostgreSQL License
+  python license (cnri python license):
+    name: Python License (CNRI Python License)
+  python software foundation license:
+    name: Python Software Foundation License
+  qt public license (qpl):
+    name: Qt Public License (QPL)
+  ricoh source code public license:
+    name: Ricoh Source Code Public License
+  sil open font license 1.1 (ofl-1.1):
+    name: SIL Open Font License 1.1 (OFL-1.1)
+  sleepycat license:
+    name: Sleepycat License
+  sun industry standards source license (sissl):
+    name: Sun Industry Standards Source License (SISSL)
+  sun public license:
+    name: Sun Public License
+  the unlicense (unlicense):
+    name: The Unlicense (Unlicense)
+  universal permissive license (upl):
+    name: Universal Permissive License (UPL)
+  university of illinois/ncsa open source license:
+    name: University of Illinois/NCSA Open Source License
+  vovida software license 1.0:
+    name: Vovida Software License 1.0
+  w3c license:
+    name: W3C License
+  x.net license:
+    name: X.Net License
+  zero-clause bsd (0bsd):
+    name: Zero-Clause BSD (0BSD)
+  zope public license:
+    name: Zope Public License
+  zlib/libpng license:
+    name: zlib/libpng License
+  other/proprietary license:
+    name: Other/Proprietary License
+  public domain:
+    name: Public Domain
+  repoze public license:
+    name: Repoze Public License
 natural_language:
-  - Afrikaans
-  - Arabic
-  - Basque
-  - Bengali
-  - Bosnian
-  - Bulgarian
-  - Cantonese
-  - Catalan
-  - Catalan (Valencian)
-  - Chinese (Simplified)
-  - Chinese (Traditional)
-  - Croatian
-  - Czech
-  - Danish
-  - Dutch
-  - English
-  - Esperanto
-  - Finnish
-  - French
-  - Galician
-  - Georgian
-  - German
-  - Greek
-  - Hebrew
-  - Hindi
-  - Hungarian
-  - Icelandic
-  - Indonesian
-  - Irish
-  - Italian
-  - Japanese
-  - Javanese
-  - Korean
-  - Latin
-  - Latvian
-  - Lithuanian
-  - Macedonian
-  - Malay
-  - Marathi
-  - Nepali
-  - Norwegian
-  - Panjabi
-  - Persian
-  - Polish
-  - Portuguese
-  - Portuguese (Brazilian)
-  - Romanian
-  - Russian
-  - Serbian
-  - Slovak
-  - Slovenian
-  - Spanish
-  - Swedish
-  - Tamil
-  - Telugu
-  - Thai
-  - Tibetan
-  - Turkish
-  - Ukrainian
-  - Urdu
-  - Vietnamese
+  afrikaans:
+    name: Afrikaans
+  arabic:
+    name: Arabic
+  basque:
+    name: Basque
+  bengali:
+    name: Bengali
+  bosnian:
+    name: Bosnian
+  bulgarian:
+    name: Bulgarian
+  cantonese:
+    name: Cantonese
+  catalan:
+    name: Catalan
+  catalan (valencian):
+    name: Catalan (Valencian)
+  chinese (simplified):
+    name: Chinese (Simplified)
+  chinese (traditional):
+    name: Chinese (Traditional)
+  croatian:
+    name: Croatian
+  czech:
+    name: Czech
+  danish:
+    name: Danish
+  dutch:
+    name: Dutch
+  english:
+    name: English
+  esperanto:
+    name: Esperanto
+  finnish:
+    name: Finnish
+  french:
+    name: French
+  galician:
+    name: Galician
+  georgian:
+    name: Georgian
+  german:
+    name: German
+  greek:
+    name: Greek
+  hebrew:
+    name: Hebrew
+  hindi:
+    name: Hindi
+  hungarian:
+    name: Hungarian
+  icelandic:
+    name: Icelandic
+  indonesian:
+    name: Indonesian
+  irish:
+    name: Irish
+  italian:
+    name: Italian
+  japanese:
+    name: Japanese
+  javanese:
+    name: Javanese
+  korean:
+    name: Korean
+  latin:
+    name: Latin
+  latvian:
+    name: Latvian
+  lithuanian:
+    name: Lithuanian
+  macedonian:
+    name: Macedonian
+  malay:
+    name: Malay
+  marathi:
+    name: Marathi
+  nepali:
+    name: Nepali
+  norwegian:
+    name: Norwegian
+  panjabi:
+    name: Panjabi
+  persian:
+    name: Persian
+  polish:
+    name: Polish
+  portuguese:
+    name: Portuguese
+  portuguese (brazilian):
+    name: Portuguese (Brazilian)
+  romanian:
+    name: Romanian
+  russian:
+    name: Russian
+  serbian:
+    name: Serbian
+  slovak:
+    name: Slovak
+  slovenian:
+    name: Slovenian
+  spanish:
+    name: Spanish
+  swedish:
+    name: Swedish
+  tamil:
+    name: Tamil
+  telugu:
+    name: Telugu
+  thai:
+    name: Thai
+  tibetan:
+    name: Tibetan
+  turkish:
+    name: Turkish
+  ukrainian:
+    name: Ukrainian
+  urdu:
+    name: Urdu
+  vietnamese:
+    name: Vietnamese
