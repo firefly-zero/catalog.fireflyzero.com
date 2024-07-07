@@ -5,6 +5,12 @@ icon:     fa-solid fa-staff-snake
 download: https://github.com/firefly-zero/snek/releases/latest/download/lux.snek.zip
 links:
   source code: https://github.com/firefly-zero/snek
+categories:
+  - genre/puzzle
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/go
 desc: >
   A new twist on the classic snake game. Uses the power of Firefly Zero touch pad
   for 360° movement. In future, will also include PvP multiplayer.

@@ -25,6 +25,12 @@ def get_icon(name: str, url: str) -> str | None:
     return ICONS.get(url)
 
 
+class Category(BaseModel):
+    group_slug: str = Field(pattern=r'^[a-z-]{3,}$')
+    slug: str = Field(pattern=r'^[a-zA-Z0-9-]{1,}$')
+    name: str = Field(min_length=1)
+
+
 class Author(BaseModel):
     id: str = Field(pattern=r'^.{1,16}$')
     name: str = Field(min_length=2, max_length=40)
@@ -47,6 +53,7 @@ class App(BaseModel):
     download: str = Field(pattern=r'^https://.+\.')
     links: dict[str, str] | None = Field(max_length=16, default=None)
     icon: str | None = Field(pattern=r'^fa-', default=None)
+    categories: list[str] = Field(min_length=1)
     desc: str = Field(min_length=10, max_length=10_000)
 
     model_config = ConfigDict(extra='forbid')
@@ -88,35 +95,53 @@ def load_authors() -> list[Author]:
     return authors
 
 
-apps = load_apps()
-authors = load_authors()
-out_dir = Path('public')
+def load_categories() -> list[Category]:
+    categories = []
+    groups = yaml.safe_load(Path('categories.yaml').read_text())
+    for group_slug, group in groups.items():
+        for slug, category in group.items():
+            categories.append(Category(
+                group_slug=group_slug,
+                slug=slug,
+                **category,
+            ))
+    return categories
 
-# render list of apps
-template = env.get_template('index.html.j2')
-content = template.render(apps=apps)
-(out_dir / 'index.html').write_text(content)
 
-# render page for each app
-template = env.get_template('app.html.j2')
-for app in apps:
-    content = template.render(app=app, get_icon=get_icon)
-    (out_dir / f'{app.id}.html').write_text(content)
-    (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
+def main() -> None:
+    apps = load_apps()
+    authors = load_authors()
+    categories = load_categories()
+    out_dir = Path('public')
 
-# render list of authors
-template = env.get_template('authors.html.j2')
-content = template.render(authors=authors)
-(out_dir / 'authors.html').write_text(content)
+    # render list of apps
+    template = env.get_template('index.html.j2')
+    content = template.render(apps=apps)
+    (out_dir / 'index.html').write_text(content)
 
-# render page for each author
-template = env.get_template('author.html.j2')
-for author in authors:
-    author_apps = [app for app in apps if app.author.id == author.id]
-    content = template.render(
-        author=author,
-        apps=author_apps,
-        get_icon=get_icon,
-    )
-    (out_dir / f'{author.id}.html').write_text(content)
-    (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
+    # render page for each app
+    template = env.get_template('app.html.j2')
+    for app in apps:
+        content = template.render(app=app, get_icon=get_icon)
+        (out_dir / f'{app.id}.html').write_text(content)
+        (out_dir / f'{app.id}.json').write_text(app.model_dump_json())
+
+    # render list of authors
+    template = env.get_template('authors.html.j2')
+    content = template.render(authors=authors)
+    (out_dir / 'authors.html').write_text(content)
+
+    # render page for each author
+    template = env.get_template('author.html.j2')
+    for author in authors:
+        author_apps = [app for app in apps if app.author.id == author.id]
+        content = template.render(
+            author=author,
+            apps=author_apps,
+            get_icon=get_icon,
+        )
+        (out_dir / f'{author.id}.html').write_text(content)
+        (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
+
+
+main()

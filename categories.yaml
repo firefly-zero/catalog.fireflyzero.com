@@ -1,11 +1,9 @@
 # https://www.mobygames.com/genre/
-basic-genre:
+genre:
   action:
     name: Action
   adventure:
     name: Adventure
-  compilation:
-    name: Compilation
   educational:
     name: Educational
   idle:
@@ -22,6 +20,10 @@ basic-genre:
     name: Sports
   strategy:
     name: Strategy
+  utility:
+    name: Apps / Utility
+  other:
+    name: Other / Unexplainable
 perspective:
   1st-person:
     name: 1st-person
@@ -59,7 +61,7 @@ gameplay:
     name: Artillery
   beat-em-up:
     name: Beat 'em up / brawler
-  board game:
+  board-game:
     name: Board game
   cards:
     name: Cards / tiles
@@ -317,7 +319,7 @@ setting:
     name: Europe
   fantasy:
     name: Fantasy
-  historical events:
+  historical-events:
     name: Historical events
   industrial:
     name: Industrial Age
@@ -331,7 +333,7 @@ setting:
     name: Medieval
   middle-east:
     name: Middle East
-  north=america:
+  north-america:
     name: North America
   oceania:
     name: Oceania
@@ -351,9 +353,9 @@ setting:
     name: Steampunk
   western:
     name: Western
-  world war i:
+  ww1:
     name: World War I
-  world war ii:
+  ww2:
     name: World War II
 theme:
   adult:

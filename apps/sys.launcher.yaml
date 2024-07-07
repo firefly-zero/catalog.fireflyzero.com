@@ -5,5 +5,8 @@ icon:     fa-solid fa-rocket
 download: https://github.com/firefly-zero/firefly-launcher/releases/latest/download/sys.launcher.zip
 links:
   source code: https://github.com/firefly-zero/firefly-launcher
+categories:
+  - genre/utility
+  - programming-language/rust
 desc: >
   Navigate and launch the installed apps, modify device settings.

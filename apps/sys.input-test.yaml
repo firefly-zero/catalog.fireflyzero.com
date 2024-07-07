@@ -5,6 +5,9 @@ icon:     fa-solid fa-gamepad
 download: https://github.com/firefly-zero/firefly-input-test/releases/latest/download/sys.input-test.zip
 links:
   source code: https://github.com/firefly-zero/firefly-input-test
+categories:
+  - genre/utility
+  - programming-language/go
 desc: >
   A simple app to show what buttons are pressed and the finger position
   on the touch pad.
