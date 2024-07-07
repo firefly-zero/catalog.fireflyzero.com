@@ -1,69 +1,27 @@
 # https://www.mobygames.com/genre/
-genres:
-  action-rpg:
-    name: Action RPG
-  adventure:
-    name: Adventure
+basic-genre:
   action:
     name: Action
-  platform:
-    name: Platform
-  shooting:
-    name: Shooting
+  adventure:
+    name: Adventure
+  compilation:
+    name: Compilation
   educational:
     name: Educational
-  fighting:
-    name: Fighting
   idle:
     name: Idle
-  rpg:
-    name: RPG
-  stealth:
-    name: Stealth
-  survival:
-    name: Survival
-  rhythm:
-    name: Rhythm / Music
-  utility:
-    name: App / Utility
-  text:
-    name: Text / Graphic Adventure
-  visual-novel:
-    name: Visual Novel
-  interactive-movie:
-    name: Interactive Movie
-  hidden-object:
-    name: Hidden Object
   puzzle:
     name: Puzzle
-  roguelike:
-    name: Roguelike / Roguelite
-  simulation:
-    name: Simulation
-  strategy:
-    name: Strategy
   racing:
     name: Racing
+  rpg:
+    name: Role-playing
+  simulation:
+    name: Simulation
   sports:
     name: Sports
-  casino:
-    name: Casino
-  horror:
-    name: Horror
-  party:
-    name: Party
-  photography:
-    name: Photography
-  cooking:
-    name: Cooking
-  tabletop:
-    name: Tabletop
-  trivia:
-    name: Trivia
-  fishing:
-    name: Fishing
-  other:
-    name: Other / Unexplainable
+  strategy:
+    name: Strategy
 perspective:
   1st-person:
     name: 1st-person
