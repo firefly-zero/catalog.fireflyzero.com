@@ -1,5 +1,5 @@
 # https://www.mobygames.com/genre/
-basic_genre:
+basic-genre:
   action:
     name: Action
   adventure:
@@ -176,7 +176,7 @@ sport:
     name: Boxing
   cricket:
     name: Cricket
-  darts / target shooting:
+  darts:
     name: Darts / target shooting
   dodgeball:
     name: Dodgeball
@@ -190,25 +190,25 @@ sport:
     name: Golf
   hockey:
     name: Hockey
-  horse / derby:
+  horse:
     name: Horse / derby
-  olympiad / mixed sports:
+  mixed-sports:
     name: Olympiad / mixed sports
   paintball:
     name: Paintball
-  ping pong / table tennis:
+  ping-pong:
     name: Ping pong / table tennis
-  pool / snooker:
+  pool:
     name: Pool / snooker
-  racquetball / squash:
+  squash:
     name: Racquetball / squash
   rugby:
     name: Rugby
-  sailing / boating:
+  sailing:
     name: Sailing / boating
   skateboarding:
     name: Skateboarding
-  snowboarding / skiing:
+  snowboarding:
     name: Snowboarding / skiing
   surfing:
     name: Surfing
@@ -220,26 +220,26 @@ sport:
     name: Wakeboarding
   wrestling:
     name: Wrestling
-educational_category:
-  ecology / nature:
+educational-category:
+  nature:
     name: Ecology / nature
-  foreign language:
+  foreign-language:
     name: Foreign language
   geography:
     name: Geography
-  graphics / art:
+  art:
     name: Graphics / art
-  health / nutrition:
+  health:
     name: Health / nutrition
   history:
     name: History
-  math / logic:
+  math:
     name: Math / logic
   music:
     name: Music
-  pre-school / toddler:
+  pre-school:
     name: Pre-school / toddler
-  reading / writing:
+  reading:
     name: Reading / writing
   religion:
     name: Religion
@@ -250,39 +250,39 @@ educational_category:
   typing:
     name: Typing
 vehicle:
-  agricultural / industrial:
+  industrial:
     name: Agricultural / industrial
   automobile:
     name: Automobile
-  bike / bicycling:
+  bike:
     name: Bike / bicycling
   bus:
     name: Bus
-  flight / aviation:
+  aviation:
     name: Flight / aviation
   helicopter:
     name: Helicopter
   hovercraft:
     name: Hovercraft
-  mecha / giant robot:
+  mecha:
     name: Mecha / giant robot
   motorcycle:
     name: Motorcycle
-  naval / watercraft:
+  naval:
     name: Naval / watercraft
   off-roading:
     name: Off-roading
-  self-propelled artillery:
+  self-propelled-artillery:
     name: Self-propelled artillery
   snowmobile:
     name: Snowmobile
-  space flight:
+  space-flight:
     name: Space flight
-  street racing:
+  street-racing:
     name: Street racing
   tank:
     name: Tank
-  track racing:
+  track-racing:
     name: Track racing
   train:
     name: Train
@@ -290,28 +290,28 @@ vehicle:
     name: Transport
   truck:
     name: Truck
-  vehicle simulator:
+  vehicle-simulator:
     name: Vehicle simulator
-  vehicular combat:
+  vehicular-combat:
     name: Vehicular combat
 setting:
   africa:
     name: Africa
-  age of discovery / enlightenment:
+  age-of-discovery:
     name: Age of Discovery / Enlightenment
   asia:
     name: Asia
-  china (ancient / imperial):
+  china:
     name: China (Ancient / Imperial)
-  classical antiquity:
+  antiquity:
     name: Classical antiquity
-  cold war:
+  cold-war:
     name: Cold War
   contemporary:
     name: Contemporary
-  cyberpunk / dark sci-fi:
+  cyberpunk:
     name: Cyberpunk / dark sci-fi
-  egypt (ancient):
+  egypt:
     name: Egypt (Ancient)
   europe:
     name: Europe
@@ -319,33 +319,33 @@ setting:
     name: Fantasy
   historical events:
     name: Historical events
-  industrial age:
+  industrial:
     name: Industrial Age
   interwar:
     name: Interwar
-  japan (ancient/classical/medieval):
+  ancient-japan:
     name: Japan (Ancient/Classical/Medieval)
-  japan (modern/futuristic):
+  modern-japan:
     name: Japan (Modern/Futuristic)
   medieval:
     name: Medieval
-  middle east:
+  middle-east:
     name: Middle East
-  north america:
+  north=america:
     name: North America
   oceania:
     name: Oceania
   post-apocalyptic:
     name: Post-apocalyptic
-  pre-columbian americas:
+  americas:
     name: Pre-Columbian Americas
   prehistoric:
     name: Prehistoric
-  sci-fi / futuristic:
+  sci-fi:
     name: Sci-fi / futuristic
-  sea pirates / caribbean:
+  sea-pirates:
     name: Sea pirates / Caribbean
-  south america:
+  south-america:
     name: South America
   steampunk:
     name: Steampunk
@@ -362,17 +362,17 @@ theme:
     name: Comedy
   crime:
     name: Crime
-  detective / mystery:
+  detective:
     name: Detective / mystery
   healthcare:
     name: Healthcare
   horror:
     name: Horror
-  martial arts:
+  martial-arts:
     name: Martial arts
   romance:
     name: Romance
-  spy / espionage:
+  espionage:
     name: Spy / espionage
   survival:
     name: Survival
@@ -380,14 +380,14 @@ theme:
     name: Thriller
   war:
     name: War
-programming_language:
+programming-language:
   blockly:
     name: Blockly
   c:
     name: C
-  c#:
+  csharp:
     name: C#
-  c++:
+  cpp:
     name: C++
   elixir:
     name: Elixir
@@ -397,7 +397,7 @@ programming_language:
     name: Haskell
   java:
     name: Java
-  javascript:
+  js:
     name: JavaScript
   julia:
     name: Julia
@@ -411,16 +411,11 @@ programming_language:
     name: Rust
   swift:
     name: Swift
-  typescript:
+  ts:
     name: TypeScript
   zig:
     name: Zig
-license:
-  mit:
-    name: MIT
-  gpl:
-    name: GPL
-development_status:
+development-status:
   planning:
     name: Planning
   pre-alpha:
@@ -429,309 +424,9 @@ development_status:
     name: Alpha
   beta:
     name: Beta
-  production/stable:
-    name: Production/Stable
+  stable:
+    name: Production / Stable
   mature:
     name: Mature
   inactive:
     name: Inactive
-license:
-  aladdin free public license (afpl):
-    name: Aladdin Free Public License (AFPL)
-  cc0 1.0 universal (cc0 1.0) public domain dedication:
-    name: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-  cecill-b free software license agreement (cecill-b):
-    name: CeCILL-B Free Software License Agreement (CECILL-B)
-  cecill-c free software license agreement (cecill-c):
-    name: CeCILL-C Free Software License Agreement (CECILL-C)
-  dfsg approved:
-    name: DFSG approved
-  eiffel forum license (efl):
-    name: Eiffel Forum License (EFL)
-  free for educational use:
-    name: Free For Educational Use
-  free for home use:
-    name: Free For Home Use
-  free to use but restricted:
-    name: Free To Use But Restricted
-  free for non-commercial use:
-    name: Free for non-commercial use
-  freely distributable:
-    name: Freely Distributable
-  freeware:
-    name: Freeware
-  gust font license 1.0:
-    name: GUST Font License 1.0
-  gust font license 2006-09-30:
-    name: GUST Font License 2006-09-30
-  netscape public license (npl):
-    name: Netscape Public License (NPL)
-  nokia open source license (nokos):
-    name: Nokia Open Source License (NOKOS)
-  osi approved:
-    name: OSI Approved
-  academic free license (afl):
-    name: Academic Free License (AFL)
-  apache software license:
-    name: Apache Software License
-  apple public source license:
-    name: Apple Public Source License
-  artistic license:
-    name: Artistic License
-  attribution assurance license:
-    name: Attribution Assurance License
-  bsd license:
-    name: BSD License
-  blue oak model license (blueoak-1.0.0):
-    name: Blue Oak Model License (BlueOak-1.0.0)
-  boost software license 1.0 (bsl-1.0):
-    name: Boost Software License 1.0 (BSL-1.0)
-  cea cnrs inria logiciel libre license, version 2.1 (cecill-2.1):
-    name: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
-  common development and distribution license 1.0 (cddl-1.0):
-    name: Common Development and Distribution License 1.0 (CDDL-1.0)
-  common public license:
-    name: Common Public License
-  eclipse public license 1.0 (epl-1.0):
-    name: Eclipse Public License 1.0 (EPL-1.0)
-  eclipse public license 2.0 (epl-2.0):
-    name: Eclipse Public License 2.0 (EPL-2.0)
-  educational community license, version 2.0 (ecl-2.0):
-    name: Educational Community License, Version 2.0 (ECL-2.0)
-  eiffel forum license:
-    name: Eiffel Forum License
-  european union public licence 1.0 (eupl 1.0):
-    name: European Union Public Licence 1.0 (EUPL 1.0)
-  european union public licence 1.1 (eupl 1.1):
-    name: European Union Public Licence 1.1 (EUPL 1.1)
-  european union public licence 1.2 (eupl 1.2):
-    name: European Union Public Licence 1.2 (EUPL 1.2)
-  gnu affero general public license v3:
-    name: GNU Affero General Public License v3
-  gnu affero general public license v3 or later (agplv3+):
-    name: GNU Affero General Public License v3 or later (AGPLv3+)
-  gnu free documentation license (fdl):
-    name: GNU Free Documentation License (FDL)
-  gnu general public license (gpl):
-    name: GNU General Public License (GPL)
-  gnu general public license v2 (gplv2):
-    name: GNU General Public License v2 (GPLv2)
-  gnu general public license v2 or later (gplv2+):
-    name: GNU General Public License v2 or later (GPLv2+)
-  gnu general public license v3 (gplv3):
-    name: GNU General Public License v3 (GPLv3)
-  gnu general public license v3 or later (gplv3+):
-    name: GNU General Public License v3 or later (GPLv3+)
-  gnu lesser general public license v2 (lgplv2):
-    name: GNU Lesser General Public License v2 (LGPLv2)
-  gnu lesser general public license v2 or later (lgplv2+):
-    name: GNU Lesser General Public License v2 or later (LGPLv2+)
-  gnu lesser general public license v3 (lgplv3):
-    name: GNU Lesser General Public License v3 (LGPLv3)
-  gnu lesser general public license v3 or later (lgplv3+):
-    name: GNU Lesser General Public License v3 or later (LGPLv3+)
-  gnu library or lesser general public license (lgpl):
-    name: GNU Library or Lesser General Public License (LGPL)
-  historical permission notice and disclaimer (hpnd):
-    name: Historical Permission Notice and Disclaimer (HPND)
-  ibm public license:
-    name: IBM Public License
-  isc license (iscl):
-    name: ISC License (ISCL)
-  intel open source license:
-    name: Intel Open Source License
-  jabber open source license:
-    name: Jabber Open Source License
-  mit license:
-    name: MIT License
-  mit no attribution license (mit-0):
-    name: MIT No Attribution License (MIT-0)
-  mitre collaborative virtual workspace license (cvw):
-    name: MITRE Collaborative Virtual Workspace License (CVW)
-  miros license (miros):
-    name: MirOS License (MirOS)
-  motosoto license:
-    name: Motosoto License
-  mozilla public license 1.0 (mpl):
-    name: Mozilla Public License 1.0 (MPL)
-  mozilla public license 1.1 (mpl 1.1):
-    name: Mozilla Public License 1.1 (MPL 1.1)
-  mozilla public license 2.0 (mpl 2.0):
-    name: Mozilla Public License 2.0 (MPL 2.0)
-  mulan permissive software license v2 (mulanpsl-2.0):
-    name: Mulan Permissive Software License v2 (MulanPSL-2.0)
-  nasa open source agreement v1.3 (nasa-1.3):
-    name: NASA Open Source Agreement v1.3 (NASA-1.3)
-  nethack general public license:
-    name: Nethack General Public License
-  nokia open source license:
-    name: Nokia Open Source License
-  open group test suite license:
-    name: Open Group Test Suite License
-  open software license 3.0 (osl-3.0):
-    name: Open Software License 3.0 (OSL-3.0)
-  postgresql license:
-    name: PostgreSQL License
-  python license (cnri python license):
-    name: Python License (CNRI Python License)
-  python software foundation license:
-    name: Python Software Foundation License
-  qt public license (qpl):
-    name: Qt Public License (QPL)
-  ricoh source code public license:
-    name: Ricoh Source Code Public License
-  sil open font license 1.1 (ofl-1.1):
-    name: SIL Open Font License 1.1 (OFL-1.1)
-  sleepycat license:
-    name: Sleepycat License
-  sun industry standards source license (sissl):
-    name: Sun Industry Standards Source License (SISSL)
-  sun public license:
-    name: Sun Public License
-  the unlicense (unlicense):
-    name: The Unlicense (Unlicense)
-  universal permissive license (upl):
-    name: Universal Permissive License (UPL)
-  university of illinois/ncsa open source license:
-    name: University of Illinois/NCSA Open Source License
-  vovida software license 1.0:
-    name: Vovida Software License 1.0
-  w3c license:
-    name: W3C License
-  x.net license:
-    name: X.Net License
-  zero-clause bsd (0bsd):
-    name: Zero-Clause BSD (0BSD)
-  zope public license:
-    name: Zope Public License
-  zlib/libpng license:
-    name: zlib/libpng License
-  other/proprietary license:
-    name: Other/Proprietary License
-  public domain:
-    name: Public Domain
-  repoze public license:
-    name: Repoze Public License
-natural_language:
-  afrikaans:
-    name: Afrikaans
-  arabic:
-    name: Arabic
-  basque:
-    name: Basque
-  bengali:
-    name: Bengali
-  bosnian:
-    name: Bosnian
-  bulgarian:
-    name: Bulgarian
-  cantonese:
-    name: Cantonese
-  catalan:
-    name: Catalan
-  catalan (valencian):
-    name: Catalan (Valencian)
-  chinese (simplified):
-    name: Chinese (Simplified)
-  chinese (traditional):
-    name: Chinese (Traditional)
-  croatian:
-    name: Croatian
-  czech:
-    name: Czech
-  danish:
-    name: Danish
-  dutch:
-    name: Dutch
-  english:
-    name: English
-  esperanto:
-    name: Esperanto
-  finnish:
-    name: Finnish
-  french:
-    name: French
-  galician:
-    name: Galician
-  georgian:
-    name: Georgian
-  german:
-    name: German
-  greek:
-    name: Greek
-  hebrew:
-    name: Hebrew
-  hindi:
-    name: Hindi
-  hungarian:
-    name: Hungarian
-  icelandic:
-    name: Icelandic
-  indonesian:
-    name: Indonesian
-  irish:
-    name: Irish
-  italian:
-    name: Italian
-  japanese:
-    name: Japanese
-  javanese:
-    name: Javanese
-  korean:
-    name: Korean
-  latin:
-    name: Latin
-  latvian:
-    name: Latvian
-  lithuanian:
-    name: Lithuanian
-  macedonian:
-    name: Macedonian
-  malay:
-    name: Malay
-  marathi:
-    name: Marathi
-  nepali:
-    name: Nepali
-  norwegian:
-    name: Norwegian
-  panjabi:
-    name: Panjabi
-  persian:
-    name: Persian
-  polish:
-    name: Polish
-  portuguese:
-    name: Portuguese
-  portuguese (brazilian):
-    name: Portuguese (Brazilian)
-  romanian:
-    name: Romanian
-  russian:
-    name: Russian
-  serbian:
-    name: Serbian
-  slovak:
-    name: Slovak
-  slovenian:
-    name: Slovenian
-  spanish:
-    name: Spanish
-  swedish:
-    name: Swedish
-  tamil:
-    name: Tamil
-  telugu:
-    name: Telugu
-  thai:
-    name: Thai
-  tibetan:
-    name: Tibetan
-  turkish:
-    name: Turkish
-  ukrainian:
-    name: Ukrainian
-  urdu:
-    name: Urdu
-  vietnamese:
-    name: Vietnamese
