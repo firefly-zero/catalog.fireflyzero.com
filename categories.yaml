@@ -1,0 +1,377 @@
+# https://www.mobygames.com/genre/
+basic_genre:
+  - Action
+  - Add-on
+  - Adventure
+  - Compilation
+  - Educational
+  - Idle
+  - Puzzle
+  - Racing
+  - Role-playing
+  - Simulation
+  - Sports
+  - Strategy
+perspective:
+  - 1st-person
+  - 3rd-person
+  - Audio game
+  - Behind view
+  - Diagonal-down
+  - Side view
+  - Text-based
+  - Top-down
+pacing:
+  - Meditative
+  - Persistent
+  - Real-time
+  - Turn-based
+gameplay:
+  - 4X
+  - Action RPG
+  - Arcade
+  - Artillery
+  - Beat 'em up / brawler
+  - Board game
+  - Cards / tiles
+  - Chess
+  - City building / construction simulation
+  - Dating simulation
+  - Falling block puzzle
+  - Fighting
+  - Gambling elements
+  - Game show / trivia / quiz
+  - Graphic adventure
+  - Hack and slash
+  - Hidden object
+  - Hunting
+  - Interactive book
+  - Interactive fiction / text adventure
+  - Japanese-style RPG
+  - Japanese-style adventure
+  - Life / social simulation
+  - Managerial / business simulation
+  - Massively Multiplayer
+  - Mental training
+  - Metroidvania
+  - Mini-games
+  - Music / rhythm
+  - Paddle / Pong
+  - Party game
+  - Pinball
+  - Platform
+  - Puzzle elements
+  - Quick Time Events
+  - RPG elements
+  - Rail shooter
+  - Real-time strategy
+  - Real-time tactics
+  - Roguelike
+  - Sandbox / open world
+  - Shooter
+  - Stealth
+  - Survival horror
+  - Tactical RPG
+  - Tactical shooter
+  - Tile matching puzzle
+  - Time management
+  - Timed input
+  - Tower defense
+  - Trading / collectible card
+  - Tricks / stunts
+  - Turn-based strategy
+  - Turn-based tactics
+  - Visual novel
+  - Wargame
+  - Word construction
+sport:
+  - Athletics
+  - Baseball
+  - Basketball
+  - Bowling
+  - Boxing
+  - Cricket
+  - Darts / target shooting
+  - Dodgeball
+  - Fishing
+  - Football
+  - Football
+  - Golf
+  - Hockey
+  - Horse / derby
+  - Olympiad / mixed sports
+  - Paintball
+  - Ping pong / table tennis
+  - Pool / snooker
+  - Racquetball / squash
+  - Rugby
+  - Sailing / boating
+  - Skateboarding
+  - Snowboarding / skiing
+  - Surfing
+  - Tennis
+  - Volleyball
+  - Wakeboarding
+  - Wrestling
+educational_category:
+  - Ecology / nature
+  - Foreign language
+  - Geography
+  - Graphics / art
+  - Health / nutrition
+  - History
+  - Math / logic
+  - Music
+  - Pre-school / toddler
+  - Reading / writing
+  - Religion
+  - Science
+  - Sociology
+  - Typing
+vehicle:
+  - Agricultural / industrial
+  - Automobile
+  - Bike / bicycling
+  - Bus
+  - Flight / aviation
+  - Helicopter
+  - Hovercraft
+  - Mecha / giant robot
+  - Motorcycle
+  - Naval / watercraft
+  - Off-roading
+  - Self-propelled artillery
+  - Snowmobile
+  - Space flight
+  - Street racing
+  - Tank
+  - Track racing
+  - Train
+  - Transport
+  - Truck
+  - Vehicle simulator
+  - Vehicular combat
+setting:
+  - Africa
+  - Age of Discovery / Enlightenment
+  - Asia
+  - China (Ancient / Imperial)
+  - Classical antiquity
+  - Cold War
+  - Contemporary
+  - Cyberpunk / dark sci-fi
+  - Egypt (Ancient)
+  - Europe
+  - Fantasy
+  - Historical events
+  - Industrial Age
+  - Interwar
+  - Japan (Ancient/Classical/Medieval)
+  - Japan (Modern/Futuristic)
+  - Medieval
+  - Middle East
+  - North America
+  - Oceania
+  - Post-apocalyptic
+  - Pre-Columbian Americas
+  - Prehistoric
+  - Sci-fi / futuristic
+  - Sea pirates / Caribbean
+  - South America
+  - Steampunk
+  - Western
+  - World War I
+  - World War II
+theme:
+  - Adult
+  - Comedy
+  - Crime
+  - Detective / mystery
+  - Healthcare
+  - Horror
+  - Martial arts
+  - Romance
+  - Spy / espionage
+  - Survival
+  - Thriller
+  - War
+programming_language:
+  - Blockly
+  - C
+  - C#
+  - C++
+  - Elixir
+  - Go
+  - Haskell
+  - Java
+  - JavaScript
+  - Julia
+  - Lua
+  - Python
+  - Ruby
+  - Rust
+  - Swift
+  - TypeScript
+  - Zig
+license:
+  - MIT
+  - GPL
+development_status:
+  - Planning
+  - Pre-Alpha
+  - Alpha
+  - Beta
+  - Production/Stable
+  - Mature
+  - Inactive
+license:
+  - Aladdin Free Public License (AFPL)
+  - CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+  - CeCILL-B Free Software License Agreement (CECILL-B)
+  - CeCILL-C Free Software License Agreement (CECILL-C)
+  - DFSG approved
+  - Eiffel Forum License (EFL)
+  - Free For Educational Use
+  - Free For Home Use
+  - Free To Use But Restricted
+  - Free for non-commercial use
+  - Freely Distributable
+  - Freeware
+  - GUST Font License 1.0
+  - GUST Font License 2006-09-30
+  - Netscape Public License (NPL)
+  - Nokia Open Source License (NOKOS)
+  - OSI Approved
+  - Academic Free License (AFL)
+  - Apache Software License
+  - Apple Public Source License
+  - Artistic License
+  - Attribution Assurance License
+  - BSD License
+  - Blue Oak Model License (BlueOak-1.0.0)
+  - Boost Software License 1.0 (BSL-1.0)
+  - CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+  - Common Development and Distribution License 1.0 (CDDL-1.0)
+  - Common Public License
+  - Eclipse Public License 1.0 (EPL-1.0)
+  - Eclipse Public License 2.0 (EPL-2.0)
+  - Educational Community License, Version 2.0 (ECL-2.0)
+  - Eiffel Forum License
+  - European Union Public Licence 1.0 (EUPL 1.0)
+  - European Union Public Licence 1.1 (EUPL 1.1)
+  - European Union Public Licence 1.2 (EUPL 1.2)
+  - GNU Affero General Public License v3
+  - GNU Affero General Public License v3 or later (AGPLv3+)
+  - GNU Free Documentation License (FDL)
+  - GNU General Public License (GPL)
+  - GNU General Public License v2 (GPLv2)
+  - GNU General Public License v2 or later (GPLv2+)
+  - GNU General Public License v3 (GPLv3)
+  - GNU General Public License v3 or later (GPLv3+)
+  - GNU Lesser General Public License v2 (LGPLv2)
+  - GNU Lesser General Public License v2 or later (LGPLv2+)
+  - GNU Lesser General Public License v3 (LGPLv3)
+  - GNU Lesser General Public License v3 or later (LGPLv3+)
+  - GNU Library or Lesser General Public License (LGPL)
+  - Historical Permission Notice and Disclaimer (HPND)
+  - IBM Public License
+  - ISC License (ISCL)
+  - Intel Open Source License
+  - Jabber Open Source License
+  - MIT License
+  - MIT No Attribution License (MIT-0)
+  - MITRE Collaborative Virtual Workspace License (CVW)
+  - MirOS License (MirOS)
+  - Motosoto License
+  - Mozilla Public License 1.0 (MPL)
+  - Mozilla Public License 1.1 (MPL 1.1)
+  - Mozilla Public License 2.0 (MPL 2.0)
+  - Mulan Permissive Software License v2 (MulanPSL-2.0)
+  - NASA Open Source Agreement v1.3 (NASA-1.3)
+  - Nethack General Public License
+  - Nokia Open Source License
+  - Open Group Test Suite License
+  - Open Software License 3.0 (OSL-3.0)
+  - PostgreSQL License
+  - Python License (CNRI Python License)
+  - Python Software Foundation License
+  - Qt Public License (QPL)
+  - Ricoh Source Code Public License
+  - SIL Open Font License 1.1 (OFL-1.1)
+  - Sleepycat License
+  - Sun Industry Standards Source License (SISSL)
+  - Sun Public License
+  - The Unlicense (Unlicense)
+  - Universal Permissive License (UPL)
+  - University of Illinois/NCSA Open Source License
+  - Vovida Software License 1.0
+  - W3C License
+  - X.Net License
+  - Zero-Clause BSD (0BSD)
+  - Zope Public License
+  - zlib/libpng License
+  - Other/Proprietary License
+  - Public Domain
+  - Repoze Public License
+natural_language:
+  - Afrikaans
+  - Arabic
+  - Basque
+  - Bengali
+  - Bosnian
+  - Bulgarian
+  - Cantonese
+  - Catalan
+  - Catalan (Valencian)
+  - Chinese (Simplified)
+  - Chinese (Traditional)
+  - Croatian
+  - Czech
+  - Danish
+  - Dutch
+  - English
+  - Esperanto
+  - Finnish
+  - French
+  - Galician
+  - Georgian
+  - German
+  - Greek
+  - Hebrew
+  - Hindi
+  - Hungarian
+  - Icelandic
+  - Indonesian
+  - Irish
+  - Italian
+  - Japanese
+  - Javanese
+  - Korean
+  - Latin
+  - Latvian
+  - Lithuanian
+  - Macedonian
+  - Malay
+  - Marathi
+  - Nepali
+  - Norwegian
+  - Panjabi
+  - Persian
+  - Polish
+  - Portuguese
+  - Portuguese (Brazilian)
+  - Romanian
+  - Russian
+  - Serbian
+  - Slovak
+  - Slovenian
+  - Spanish
+  - Swedish
+  - Tamil
+  - Telugu
+  - Thai
+  - Tibetan
+  - Turkish
+  - Ukrainian
+  - Urdu
+  - Vietnamese
