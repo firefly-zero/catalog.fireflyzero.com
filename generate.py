@@ -103,7 +103,7 @@ public_dir.mkdir(exist_ok=True)
 
 
 def load_apps() -> list[App]:
-    apps = []
+    apps: list[App] = []
     for app_path in Path('apps').iterdir():
         author_id, _app_id, ext = app_path.name.split('.')
         assert ext == 'yaml'
@@ -118,10 +118,12 @@ def load_apps() -> list[App]:
 
 
 def load_authors() -> list[Author]:
-    authors = []
+    authors: list[Author] = []
     for author_path in Path('authors').iterdir():
         author_raw = yaml.safe_load(author_path.read_text())
         author = Author(id=author_path.stem, **author_raw)
+        if author.id in ('index', 'apps', 'authors'):
+            raise AssertionError(f'Reserved author ID: {author.id}')
         authors.append(author)
     return authors
 
@@ -149,7 +151,6 @@ def main() -> None:
     template = env.get_template('index.html.j2')
     content = template.render(apps=apps)
     (out_dir / 'index.html').write_text(content)
-    apps.sort(key=lambda app: app.added, reverse=True)
     short_apps = [a.short_dump() for a in apps]
     (out_dir / 'apps.json').write_text(json.dumps(short_apps, indent=1))
 
