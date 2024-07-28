@@ -1,4 +1,22 @@
-# https://www.mobygames.com/genre/
+# Source: https://tic80.com/play
+type:
+  game:
+    name: game
+    icon: fa-solid fa-dice
+  tool:
+    name: tool
+    icon: fa-solid fa-wrench
+  tech:
+    name: tech demo
+  music:
+    name: music
+    icon: fa-solid fa-music
+  demo:
+    name: demo scene
+
+# Applicable only for games
+#
+# Source: https://www.mobygames.com/genre/
 genre:
   action:
     name: Action
@@ -30,9 +48,6 @@ genre:
   strategy:
     name: Strategy
     icon: fa-solid fa-chess
-  utility:
-    name: Apps / Utility
-    icon: fa-solid fa-hammer
   other:
     name: Other / Unexplainable
     icon: fa-solid fa-calculator
@@ -196,8 +211,6 @@ sport:
     name: Dodgeball
   fishing:
     name: Fishing
-  football:
-    name: Football
   football:
     name: Football
   golf:

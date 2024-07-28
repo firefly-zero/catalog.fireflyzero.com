@@ -1,11 +1,12 @@
-name:     Snek
-short:    Snake-inspired game with 360° movement.
-added:    "2024-05-02"
-icon:     fa-solid fa-staff-snake
+name: Snek
+short: Snake-inspired game with 360° movement.
+added: "2024-05-02"
+icon: fa-solid fa-staff-snake
 download: https://github.com/firefly-zero/snek/releases/latest/download/lux.snek.zip
 links:
   source code: https://github.com/firefly-zero/snek
 categories:
+  - type/game
   - genre/puzzle
   - perspective/top-down
   - pacing/real-time
