@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import yaml
@@ -71,6 +72,19 @@ class App(BaseModel):
         """
         return self.download.endswith('.zip')
 
+    def short_dump(self) -> dict[str, object]:
+        """Get a dictionary with the most basic attributes of the app.
+
+        Used to generate the JSON list of all apps.
+        """
+        return {
+            'id': self.id,
+            'name': self.name,
+            'author': self.author.name,
+            'short': self.short,
+            'added': self.added,
+        }
+
 
 class Categories(BaseModel):
     categories: list[Category] = Field(min_length=20)
@@ -135,6 +149,9 @@ def main() -> None:
     template = env.get_template('index.html.j2')
     content = template.render(apps=apps)
     (out_dir / 'index.html').write_text(content)
+    apps.sort(key=lambda app: app.added, reverse=True)
+    short_apps = [a.short_dump() for a in apps]
+    (out_dir / 'apps.json').write_text(json.dumps(short_apps, indent=1))
 
     # render page for each app
     template = env.get_template('app.html.j2')
