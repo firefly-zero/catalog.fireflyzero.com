@@ -1,0 +1,16 @@
+name: Flappy Gopher
+short: Firefly Zero version of the Flappy Gopher game.
+added: "2024-12-22"
+icon: fa-solid fa-gamepad
+download: https://github.com/deadprogram/flappy-gopher/releases/latest/download/deadprogram.flappy-gopher.zip
+links:
+  source code: https://github.com/deadprogram/flappy-gopher
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/go
+desc: >
+  Firefly Zero version of the Flappy Gopher game.
