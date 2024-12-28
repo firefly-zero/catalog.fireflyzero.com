@@ -1,0 +1,17 @@
+name: Blutti
+short: A single screen platformer
+added: "2024-12-28"
+icon: fa-solid fa-gamepad
+download: https://github.com/ollej/firefly-blutti/releases/download/v0.1/olle.blutti.zip
+links:
+  source code: https://github.com/ollej/firefly-blutti
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/rust
+desc: >
+  A single screen platformer with 8x8 tiles.
+
