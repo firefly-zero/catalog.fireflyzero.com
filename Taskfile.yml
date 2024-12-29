@@ -21,6 +21,7 @@ tasks:
       - public
     cmds:
       - mkdir -p public
+      - cp -r splash public/
       - python3 generate.py
 
   default:

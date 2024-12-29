@@ -72,6 +72,13 @@ class App(BaseModel):
         """
         return self.download.endswith('.zip')
 
+    @property
+    def splash(self) -> str | None:
+        path = Path(__file__).parent / 'splash' / f'{self.id}.png'
+        if path.exists():
+            return f'./splash/{self.id}.png'
+        return None
+
     def short_dump(self) -> dict[str, object]:
         """Get a dictionary with the most basic attributes of the app.
 

@@ -1,5 +1,8 @@
 <div class="col col-md-4">
   <article class="card h-100">
+    {% if app.splash %}
+      <img src="{{ app.splash }}" class="card-img-top splash">
+    {% endif %}
     <div class="card-body">
       <h5 class="card-title">
         {% if app.icon %}
