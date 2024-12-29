@@ -1,0 +1,16 @@
+name: Ghost Castle
+short: Sir Scaredy has made a wrong turn and ended up in Ghost Castle. There is no escape now!
+added: "2024-12-29"
+icon: fa-solid fa-gamepad
+download: https://github.com/deadprogram/ghost-castle/releases/latest/download/deadprogram.ghost-castle.zip
+links:
+  source code: https://github.com/deadprogram/ghost-castle
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/top-view
+  - pacing/turn-based
+  - gameplay/roguelike
+  - programming-language/go
+desc: >
+  Sir Scaredy has made a wrong turn and ended up in Ghost Castle. There is no escape now! They will have to fight to survive ever increasing numbers of ghosts appearing. Written using TinyGo on TinyRogue.
