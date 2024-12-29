@@ -2,7 +2,7 @@ name: Blutti
 short: A single screen platformer
 added: "2024-12-28"
 icon: fa-solid fa-gamepad
-download: https://github.com/ollej/firefly-blutti/releases/download/v0.1/olle.blutti.zip
+download: https://github.com/ollej/firefly-blutti/releases/latest/download/olle.blutti.zip
 links:
   source code: https://github.com/ollej/firefly-blutti
 categories:
