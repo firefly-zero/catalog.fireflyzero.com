@@ -1,7 +1,7 @@
 name: Ghost Castle
 short: Sir Scaredy has made a wrong turn and ended up in Ghost Castle. There is no escape now!
 added: "2024-12-29"
-icon: fa-solid fa-gamepad
+icon: fa-solid fa-ghost
 download: https://github.com/deadprogram/ghost-castle/releases/latest/download/deadprogram.ghost-castle.zip
 links:
   source code: https://github.com/deadprogram/ghost-castle
