@@ -3,13 +3,18 @@
   {{ app.name }} by {{ app.author.name }}
 {% endblock %}
 {% block body %}
-  <div class="row justify-content-center mb-1">
+  <div class="row justify-content-center mb-1 app-page">
     <div class="col col-md-6">
       <h1>
         <a href="/">Apps</a> /
         {{ app.name }}
       </h1>
-      <ul class="list-unstyled">
+      <img src="{{ app.splash }}" class="card-img-top splash"/>
+      <div>
+        <i class="fa-solid fa-fw fa-circle-info" title="short description"></i>
+        {{ app.short }}
+      </div>
+      <ul class="list-unstyled col-xl-6 col-12">
         <li>
           <i class="fa-solid fa-fw fa-user" title="author"></i>
           <a href="/{{ app.author.id }}.html">
@@ -20,10 +25,6 @@
           <i class="fa-solid fa-fw fa-calendar-plus" title="date added"></i>
           {{ app.added }}
         </li>
-        <li>
-          <i class="fa-solid fa-fw fa-circle-info" title="short description"></i>
-          {{ app.short }}
-        </li>
         {% for category in categories %}
           <li>
             {% if category.icon %}
@@ -31,7 +32,7 @@
             {% else %}
               <i class="fa-solid fa-fw fa-tag" title="category"></i>
             {% endif %}
-            <span class="text-muted">{{ category.group_slug.replace('-', ' ').title() }}:</span> 
+            <span class="text-muted">{{ category.group_slug.replace('-', ' ').title() }}:</span>
             {{ category.name }}
           </li>
         {% endfor %}
