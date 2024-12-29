@@ -93,7 +93,7 @@ class Categories(BaseModel):
         for cat in self.categories:
             if cat.full_slug == full_slug:
                 return cat
-        raise LookupError
+        raise LookupError(f'invalid category: {full_slug}')
 
 
 env = Environment(loader=FileSystemLoader('templates'))

@@ -8,7 +8,7 @@ links:
 categories:
   - type/game
   - genre/adventure
-  - perspective/top-view
+  - perspective/top-down
   - pacing/turn-based
   - gameplay/roguelike
   - programming-language/go
