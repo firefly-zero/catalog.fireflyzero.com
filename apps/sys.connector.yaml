@@ -1,0 +1,12 @@
+name: Connector
+short: UI for starting multiplayer
+added: "2025-03-16"
+icon: fa-solid fa-wifi
+download: https://github.com/firefly-zero/firefly-connector/releases/latest/download/sys.connector.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-connector
+categories:
+  - type/tool
+  - programming-language/go
+desc: >
+  To launch the connector, press the "menu" button and select "start multiplayer".
