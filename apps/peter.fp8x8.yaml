@@ -1,0 +1,29 @@
+name: Fill Patterns 8x8
+short: Firefly Zero version of w4-8x8-fill-patterns
+added: "2025-03-17"
+icon: fa-solid fa-chess-board
+download: https://play.c7.se/ff/fp8x8/rom/peter.fp8x8.zip
+links:
+  source code: https://github.com/peterhellberg/ff-fp8x8/
+categories:
+  - type/tool
+  - programming-language/zig
+desc: >
+  **Monotone, 8×8px fill patterns**
+
+
+  A conversion of a small tool I originally wrote 
+  for the [WASM4](https://wasm4.org/) fantasy console.
+
+
+  _The patterns were converted from [bitsy](https://bitsy.org/) files found in [8x8.me](https://8x8.me/)
+  using a [converter](https://github.com/peterhellberg/w4-8x8-fill-patterns/blob/main/cmd/bitsy-to-w4-sprites/main.go) 
+  I wrote for the original version of the tool._
+
+  ##### Controls
+
+    - **Z**: Toggle foreground and background colors
+    - **X**: Hide overlay when held
+    - **S**: Switch color palette
+    - **Up/Down**: Switch gallery
+    - **Left/Right**: Step through patterns in the current gallery
