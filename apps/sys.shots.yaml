@@ -1,0 +1,12 @@
+name: Screenshots
+short: Screenshot viewer
+added: "2025-07-17"
+icon: fa-solid fa-image
+download: https://github.com/firefly-zero/firefly-shots/releases/latest/download/sys.shots.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-shots
+categories:
+  - type/tool
+  - programming-language/go
+desc: >
+  A simple app to view screenshots of other apps.
