@@ -190,5 +190,10 @@ def main() -> None:
         (out_dir / f'{author.id}.html').write_text(content)
         (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
 
+    # render misc pages
+    template = env.get_template('404.html.j2')
+    content = template.render()
+    (out_dir / '404.html').write_text(content)
+
 
 main()
