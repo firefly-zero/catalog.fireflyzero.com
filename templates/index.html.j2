@@ -1,11 +1,15 @@
 {% extends "base.html.j2" %}
 {% block body %}
-  <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
-    {% for app in apps %}
-      {% include 'app-card.html.j2' %}
-    {% endfor %}
-  </main>
-  <footer class="mb-1 mt-1">
+  <header class="text-center">
+    <h1>Firefly Zero game catalog</h1>
+    <a href="./random.html" class="btn btn-light">
+      <i class="fa-solid fa-shuffle"></i>
+      random
+    </a>
+    <a href="./authors.html" class="btn btn-light">
+      <i class="fa-solid fa-users"></i>
+      authors
+    </a>
     <a
       href="https://github.com/firefly-zero/catalog.fireflyzero.com?tab=readme-ov-file#add-a-new-app"
       target="_blank"
@@ -14,5 +18,11 @@
       <i class="fa-solid fa-plus"></i>
       add
     </a>
-  </footer>
+  </header>
+
+  <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
+    {% for app in apps %}
+      {% include 'app-card.html.j2' %}
+    {% endfor %}
+  </main>
 {% endblock %}

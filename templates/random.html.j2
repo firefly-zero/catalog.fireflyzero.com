@@ -1,0 +1,12 @@
+{% extends "base.html.j2" %}
+{% block body %}
+  <script>
+    const apps = [
+      {% for app in apps %}
+        "./{{ app.id }}.html",
+      {% endfor %}
+    ];
+    const app = apps[Math.floor(Math.random() * apps.length)];
+    window.location.replace(app);
+  </script>
+{% endblock %}

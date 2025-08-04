@@ -154,10 +154,12 @@ def main() -> None:
     categories = load_categories()
     out_dir = Path('public')
 
-    # render list of apps
-    template = env.get_template('index.html.j2')
-    content = template.render(apps=apps)
-    (out_dir / 'index.html').write_text(content)
+    # render list of apps and some other pages
+    for slug in ('index', '404', 'random'):
+        template = env.get_template(f'{slug}.html.j2')
+        content = template.render(apps=apps)
+        (out_dir / f'{slug}.html').write_text(content)
+
     short_apps = [a.short_dump() for a in apps]
     (out_dir / 'apps.json').write_text(json.dumps(short_apps, indent=1))
 
@@ -189,11 +191,6 @@ def main() -> None:
         )
         (out_dir / f'{author.id}.html').write_text(content)
         (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
-
-    # render misc pages
-    template = env.get_template('404.html.j2')
-    content = template.render()
-    (out_dir / '404.html').write_text(content)
 
 
 main()
