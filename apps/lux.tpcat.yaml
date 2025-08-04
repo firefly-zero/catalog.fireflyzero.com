@@ -1,0 +1,21 @@
+name: Cat vs Toilet Paper
+short: The ultimate cat simulator.
+added: "2025-08-02"
+icon: fa-solid fa-toilet-paper
+download: https://github.com/firefly-zero/tpcat/releases/latest/download/lux.tpcat.zip
+links:
+  source code: https://github.com/firefly-zero/tpcat
+categories:
+  - type/game
+  - genre/simulation
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/mini-games
+  - programming-language/go
+desc: |
+  Use touchpad to unroll toilet paper.
+
+  Port of a little quirky game
+  from [Rachel's Game Pack](https://moosadee.itch.io/rachels-playdate-game-pack)
+  for [Playdate](https://play.date/)
+  by [Rachel Wil Sha Singh](https://moosadee.itch.io/).

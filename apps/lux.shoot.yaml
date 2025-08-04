@@ -1,0 +1,18 @@
+name: Shoot!
+short: PvP/co-op game about shooting little red dots and each other.
+added: "2025-08-03"
+icon: fa-solid fa-ellipsis-vertical
+download: https://github.com/firefly-zero/shoot/releases/latest/download/lux.shoot.zip
+links:
+  source code: https://github.com/firefly-zero/shoot
+categories:
+  - type/game
+  - genre/action
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/shooter
+  - programming-language/go
+desc: >
+  Move around, destroy bricks, and shoot red dots running to you.
+  Cooperate with your friends to win fast or betray them to seize
+  the sweet victory by yourself.

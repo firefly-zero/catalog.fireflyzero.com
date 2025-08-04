@@ -1,0 +1,23 @@
+name: Eat the Red King
+short: Abstract 2-player PvP turn-based game.
+added: "2025-08-04"
+icon: fa-solid fa-crown
+download: https://github.com/firefly-zero/king/releases/latest/download/lux.king.zip
+links:
+  source code: https://github.com/firefly-zero/king
+categories:
+  - type/game
+  - genre/puzzle
+  - perspective/top-down
+  - pacing/turn-based
+  - gameplay/board-game
+  - programming-language/go
+desc: |
+  Select your move, select a pawn to move, move the pawn.
+  The card that you just played then is exhanged with the card in the middle.
+  When the other player takes their turn, they also exchange their move card,
+  taking your card from the middle of the table.
+
+  Based on [Hexitama](https://boardgamegeek.com/filepage/178381/hexitama),
+  a fan version of [Onitama](https://boardgamegeek.com/boardgame/160477/onitama)
+  board game.
