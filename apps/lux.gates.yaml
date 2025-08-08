@@ -1,0 +1,20 @@
+name: Through the Gate
+short: Fly through the gates.
+added: "2025-08-08"
+icon: fa-solid fa-meteor
+download: https://github.com/firefly-zero/gates/releases/latest/download/lux.gates.zip
+links:
+  source code: https://github.com/firefly-zero/gates
+categories:
+  - type/game
+  - genre/action
+  - perspective/behind-view
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/go
+desc: |
+  A game about flying through the gates.
+
+  This is a port of [Gatecrasher](https://benzgrant.itch.io/gatecrasher)
+  game for [Playdate](https://play.date/)
+  by [Ben Grant](https://benzgrant.itch.io/).
