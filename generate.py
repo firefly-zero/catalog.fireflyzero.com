@@ -12,6 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field
 ICONS = {
     'github.com': 'fa-brands fa-github',
     'gitlab.com': 'fa-brands fa-gitlab',
+    'codeberg.org': 'fa-solid fa-code-branch',
     'home': 'fa-solid fa-home',
     'homepage': 'fa-solid fa-home',
 }
