@@ -7,10 +7,10 @@ links:
   original: https://linda-nd.itch.io/big-sale-big-sale
 categories:
   - type/game
-  - genre/puzzle
-  - perspective/top-down
-  - pacing/turn-based
-  - gameplay/board-game
+  - genre/adventure
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/graphic-adventure
   - programming-language/bitsy
 desc: |
   A game about panic.
