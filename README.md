@@ -10,13 +10,19 @@ Web catalog of apps and games for [Firefly Zero](https://fireflyzero.com/) hoste
 
 ## Add a new app
 
-Things you should know:
+Some things you should know:
 
 1. You don't have to add your app into the catalog. You can distribute your app in any other way (like through [itch.io](https://itch.io/)) and people can install it without a problem.
-1. The app should feel finished and polished.
 1. It's ok if the app is not a game.
+
+Requirements:
+
+1. The app should feel finished and polished. Tech demos are allowed in their own category (`type/tech` or `type/demo`).
 1. The app must not be hateful or offensive.
 1. The app must be suitable for all ages.
+1. The app (code, assets, dialogs, or anything else) must not be AI-generated. Using AI-assisted tools is fine.
+1. The app should be native to Firefly Zero. Games running on an emulator (Bitsy, GameBoy, etc) are not allowed. Native ports are allowed. Emulators themselves are allowed if they can be installed and used as a standalone app.
+1. You should be the app's author or have the author's permission to publish it.
 
 How to:
 

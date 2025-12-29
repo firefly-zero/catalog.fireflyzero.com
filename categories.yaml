@@ -407,7 +407,12 @@ theme:
     name: Thriller
   war:
     name: War
+
 programming-language:
+  as:
+    name: AssemblyScript
+  bitsy:
+    name: Bitsy
   blockly:
     name: Blockly
   c:
@@ -430,6 +435,8 @@ programming-language:
     name: Julia
   lua:
     name: Lua
+  moonbit:
+    name: MoonBit
   python:
     name: Python
   ruby:
@@ -438,22 +445,5 @@ programming-language:
     name: Rust
   swift:
     name: Swift
-  ts:
-    name: TypeScript
   zig:
     name: Zig
-development-status:
-  planning:
-    name: Planning
-  pre-alpha:
-    name: Pre-Alpha
-  alpha:
-    name: Alpha
-  beta:
-    name: Beta
-  stable:
-    name: Production / Stable
-  mature:
-    name: Mature
-  inactive:
-    name: Inactive
