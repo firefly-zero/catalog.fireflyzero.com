@@ -11,6 +11,9 @@ categories:
   - perspective/behind-view
   - pacing/real-time
   - gameplay/arcade
+  - accessibility/difficulty
+  - accessibility/reaction
+  - accessibility/dizziness
   - programming-language/go
 desc: |
   A game about flying through the gates.

@@ -11,6 +11,8 @@ categories:
   - perspective/top-down
   - pacing/real-time
   - gameplay/shooter
+  - accessibility/difficulty
+  - accessibility/reaction
   - programming-language/go
 desc: >
   Move around, destroy bricks, and shoot red dots running to you.

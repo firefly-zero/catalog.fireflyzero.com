@@ -11,6 +11,8 @@ categories:
   - perspective/side-view
   - pacing/real-time
   - gameplay/arcade
+  - accessibility/difficulty
+  - accessibility/reaction
   - programming-language/go
 desc: >
   Firefly Zero version of the Flappy Gopher game.

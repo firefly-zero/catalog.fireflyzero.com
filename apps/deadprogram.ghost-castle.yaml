@@ -11,6 +11,7 @@ categories:
   - perspective/top-down
   - pacing/turn-based
   - gameplay/roguelike
+  - accessibility/difficulty
   - programming-language/go
 desc: >
   Sir Scaredy has made a wrong turn and ended up in Ghost Castle. There is no escape now! They will have to fight to survive ever increasing numbers of ghosts appearing. Written using TinyGo on TinyRogue.

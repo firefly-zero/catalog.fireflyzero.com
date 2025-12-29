@@ -408,6 +408,35 @@ theme:
   war:
     name: War
 
+accessibility:
+  colors:
+    name: Requires color recognition
+    icon: fa-solid fa-circles-overlap-3
+  sound:
+    name: Requires hearing audio
+    icon: fa-solid fa-ear-waveform
+  difficulty:
+    name: Game difficulty/speed cannot be adjusted
+    icon: fa-solid fa-gauge
+  reaction:
+    name: Requires good reaction and timed inputs
+    icon: fa-solid fa-truck-fast
+  two-handed:
+    name: Requires using buttons and touchpad at the same time
+    icon: fa-solid fa-hands
+  multi-button:
+    name: Requires pressing several buttons at the same time
+    icon: fa-solid fa-hand-horns
+  reading:
+    name: Requires reading and understanding text to progress
+    icon: fa-solid fa-file-lines
+  flashing:
+    name: Game contains flashing lights
+    icon: fa-solid fa-bolt
+  dizziness:
+    name: Game contains rapid movement that can cause dizziness
+    icon: fa-solid fa-face-dizzy
+
 programming-language:
   as:
     name: AssemblyScript
