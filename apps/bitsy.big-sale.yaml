@@ -1,0 +1,20 @@
+name: Big sale!
+short: A game about panic
+added: "2025-12-29"
+icon: fa-solid fa-person-running
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.big-sale.zip
+links:
+  original: https://linda-nd.itch.io/big-sale-big-sale
+categories:
+  - type/game
+  - genre/puzzle
+  - perspective/top-down
+  - pacing/turn-based
+  - gameplay/board-game
+  - programming-language/bitsy
+desc: |
+  A game about panic.
+
+  Instructions: Hold right.
+
+  A [Bitsy](https://bitsy.org/)-powered game by [Linda](https://linda-nd.itch.io/).

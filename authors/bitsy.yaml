@@ -1,0 +1,16 @@
+name: Bitsy
+pronouns: they/them
+links:
+  github: https://github.com/firefly-zero/bitsy-games
+short: Bitsy games for Firefly Zero
+about: |
+  A collection of some of the best [Bitsy][B] games emulated for [Firefly Zero][F].
+  All included games are from the public [bitsy-archive][A].
+  The original author is linked in the description for each game.
+
+  Please, [open an issue][I] if you want your game to be removed from the catalog.
+
+  [B]: https://bitsy.org/
+  [F]: https://fireflyzero.com/
+  [A]: https://github.com/Ragzouken/bitsy-archive
+  [I]: https://github.com/firefly-zero/bitsy-games/issues/new
