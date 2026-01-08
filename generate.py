@@ -121,7 +121,8 @@ def load_apps() -> list[App]:
         author = Author(id=author_id, **author_raw)
         app = App(id=app_path.stem, author=author, **app_raw)
         apps.append(app)
-    apps.sort(key=lambda a: (a.added, a.name), reverse=True)
+    apps.sort(key=lambda a: a.name.lower())
+    apps.sort(key=lambda a: a.added, reverse=True)
     return apps
 
 
