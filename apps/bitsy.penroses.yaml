@@ -1,0 +1,23 @@
+name: Penroses
+short: A journey through two disorienting realms.
+added: "2026-01-08"
+icon: fa-solid fa-stairs
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.penroses.zip
+links:
+  original: https://rarelikeaunicorn.itch.io/penroses
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bitsy
+desc: |
+  You find yourself in a strange new world, unrestricted by the laws of physics
+  and populated with surreal beings. Will you be able to find a way home?
+
+  Penroses is a submission for a #bitsyjam themed around the idea of daydreams.
+  I was inspired by the dreamy logic of impossible shapes/geometry as well as
+  the atmospheric works of Haruki Murakami, Jorge Luis Borges, and Hayao Miyazaki.
+
+  A [bitsy](https://bitsy.org/)-powered game by [rare](https://rarelikeaunicorn.itch.io/).

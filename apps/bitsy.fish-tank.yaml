@@ -1,0 +1,20 @@
+name: Fish tank makeover
+short: Finn the fish auditions for an episode of FISH TANK MAKEOVER.
+added: "2026-01-08"
+icon: fa-solid fa-fish
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.fish-tank.zip
+links:
+  original: https://cathsplat.itch.io/fish-tank-makeover
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bitsy
+desc: |
+  Loosely inspired by my betta fish, Finn!
+
+  A [Bitsy](https://bitsy.org/)-powered game by [cathsplat](https://cathsplat.itch.io/).
+
+  P.S: Did you find all the secrets?

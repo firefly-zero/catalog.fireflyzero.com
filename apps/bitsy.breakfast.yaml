@@ -1,0 +1,20 @@
+name: you should eat breakfast
+short: wake up, go get breakfast and find a place to eat breakfast.
+added: "2026-01-08"
+icon: fa-solid fa-spoon
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.breakfast.zip
+links:
+  original: https://npckc.itch.io/you-should-eat-breakfast
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/top-down
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bitsy
+desc: |
+  wake up, go get breakfast and find a place to eat breakfast.
+
+  use arrow keys to move. walk up to an item to interact with it.
+
+  A [Bitsy](https://bitsy.org/)-powered game by [npckc](https://npckc.itch.io/).

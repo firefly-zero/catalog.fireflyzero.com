@@ -1,0 +1,20 @@
+name: holt
+short: a bitsy utopia adventure
+added: "2026-01-08"
+icon: fa-solid fa-droplet
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.holt.zip
+links:
+  original: https://seansleblanc.itch.io/holt
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bitsy
+desc: |
+  Made for [#utopiajam](https://itch.io/jam/utopia-jam).
+
+  Controls: arrow keys to move, up to interact
+
+  A [Bitsy](https://bitsy.org/)-powered game by [Sean S. LeBlanc](https://seansleblanc.itch.io/).

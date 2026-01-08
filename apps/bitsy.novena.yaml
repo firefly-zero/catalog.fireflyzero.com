@@ -1,0 +1,19 @@
+name: novena
+short: a supplication
+added: "2026-01-08"
+icon: fa-solid fa-water
+download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.novena.zip
+links:
+  original: https://haraiva.itch.io/novena
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/top-down
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bitsy
+desc: |
+  novena is a game about the burden of strength and the fruits of perseverance.
+  it was made for the 14th monthly bitsy jam.
+
+  a [bitsy](https://bitsy.org/)-powered game by [cecile](https://haraiva.itch.io/).
