@@ -61,11 +61,22 @@
       {% endfor %}
 
       {% if app.direct %}
-        <p class="mt-3">
-          You can install it using <a href="https://github.com/firefly-zero/firefly-cli" target="_blank">firefly-cli</a>:
+        <h2 class="mt-1">Installation</h2>
+        <p>
+          On OS X (Mac) or Linux, run the following:
         </p>
-        <p class="alert alert-light font-monospace mt-1">
-          firefly_cli import {{ app.id }}
+        <p class="alert alert-light font-monospace">
+          PLAY="$(curl https://fireflyzero.com/play.sh)"<br/>
+          bash -c "$PLAY" -- {{ app.id }}
+        </p>
+
+        <p>
+          On Windows, <a href="https://docs.fireflyzero.com/user/installation/" target="_blank">install firefly_cli</a>
+          and then run:
+        </p>
+        <p class="alert alert-light font-monospace">
+          firefly_cli import {{ app.id }}<br/>
+          firefly_cli emulator --id {{ app.id }}
         </p>
       {% endif %}
 
