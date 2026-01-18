@@ -1,0 +1,19 @@
+name: Follow fireflies
+short: A little firefly-themed poem with deadly traps
+added: "2026-01-17"
+icon: fa-solid fa-bed
+download: https://github.com/firefly-zero/follow/releases/latest/download/lux.follow.zip
+links:
+  source code: https://github.com/firefly-zero/follow
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/top-down
+  - pacing/meditative
+  - gameplay/graphic-adventure
+  - programming-language/bulb
+desc: |
+  A little firefly-themed poem with deadly traps.
+
+  Written in a few hours using [Bulb Script](https://docs.fireflyzero.com/dev/bulb/)
+  as part of [Firefly Zero gamejam #1](https://itch.io/jam/firefly-jam).

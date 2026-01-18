@@ -444,6 +444,8 @@ programming-language:
     name: Bitsy
   blockly:
     name: Blockly
+  bulb:
+    name: Bulb Script
   c:
     name: C
   csharp:
