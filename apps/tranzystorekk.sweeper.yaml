@@ -1,0 +1,19 @@
+name: Sweeper
+short: Simple minesweeper clone
+added: "2026-01-19"
+icon: fa-solid fa-bomb
+download: https://codeberg.org/tranzystorekk/sweeper/releases/download/v0.1.0/tranzystorekk.sweeper.zip
+links:
+  source code: https://codeberg.org/tranzystorekk/sweeper
+categories:
+  - type/game
+  - genre/puzzle
+  - programming-language/zig
+desc: >
+  Clear the minefield without setting  off a mine!
+
+  ##### Controls:
+
+    - **DPad**: cursor movement
+    - **South** / **Z**: uncover tile
+    - **West** / **X**: toggle flag/question mark
