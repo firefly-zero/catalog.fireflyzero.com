@@ -1,0 +1,35 @@
+name: Epic Wizard Firefly Gladiator
+short: Cosy firefly training simulator
+added: "2026-01-19"
+icon: fa-solid fa-dumbbell
+download: https://github.com/applejag/epic-wizard-firefly-gladiators/releases/latest/download/applejag.ewfg.zip
+links:
+  source code: https://github.com/applejag/epic-wizard-firefly-gladiators
+  itch.io: https://applejag.itch.io/epic-wizard-firefly-gladiators
+categories:
+  - type/game
+  - genre/simulation
+  - genre/racing
+  - perspective/top-down
+  - pacing/meditative
+  - gameplay/mini-games
+  - vehicle/track-racing
+  - programming-language/go
+desc: |
+  Manage your horde of adorable fireflies with hardcore names,
+  leading them through training to improve their nimbleness and speed.
+  Then when you're ready, race them in a tournament against rival fireflies!
+
+  Succeeding will earn you gold, which you can spend in the inexplicably
+  Australian wizard frog's shop to purchase additional fireflies,
+  vitamins to boost stats or cool hats to adorn your little athletes.
+
+  Written using [Go](https://go.dev) as part of the [Firefly Zero Jam #1](https://itch.io/jam/firefly-jam)
+
+  ## Credits
+
+  Made by: team applejuice
+
+  - Code: [applejag](https://github.com/applejag)
+  - Art: [JusJuice](https://github.com/JusJuice)
+  - Special thanks to Leah, Brooks, Dane, Spark, Kalob, and the cast of Titus Production's FROZEN for help with firefly names.
