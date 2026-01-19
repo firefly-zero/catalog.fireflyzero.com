@@ -1,0 +1,17 @@
+name: Firefly Mania
+short: 2d side-view multiplayer racing game
+added: "2026-01-19"
+icon: fa-solid fa-bee
+download: https://codeberg.org/oli-obk/fire-mania/releases/download/latest/oli.mania.zip
+links:
+  source code: https://codeberg.org/oli-obk/fire-mania
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/tricks
+  - programming-language/rust
+desc: >
+  Fly into the green zone to progress to the next level.
+   Don't touch the walls or you will be respawned at the start of each level.
