@@ -1,0 +1,21 @@
+name: Fly!
+short: "My entry for the Firefly Zero Jam #1"
+added: "2026-01-18"
+icon: fa-solid fa-circle-dot
+download: https://play.c7.se/ff/fly/rom/peter.fly.zip
+links:
+  source code: https://github.com/peterhellberg/ff-fly/
+categories:
+  - type/game
+  - pacing/real-time
+  - programming-language/zig
+desc: >
+  **Green circles are prey, red circles are predators.**
+
+
+  _Written using [Zig](https://ziglang.org/) as part of the [Firefly Zero Jam #1](https://itch.io/jam/firefly-jam)_
+
+  ##### Controls
+
+    - **E**: Start the game!
+    - **Pad**: Move the player around.
