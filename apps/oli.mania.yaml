@@ -7,10 +7,10 @@ links:
   source code: https://codeberg.org/oli-obk/fire-mania
 categories:
   - type/game
-  - genre/action
+  - genre/racing
   - perspective/side-view
   - pacing/real-time
-  - gameplay/tricks
+  - gameplay/arcade
   - programming-language/rust
 desc: >
   Fly into the green zone to progress to the next level.
