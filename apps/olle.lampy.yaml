@@ -1,0 +1,21 @@
+name: Lampy
+short: Collect as many fireflies as possible
+added: "2026-01-20"
+icon: fa-solid fa-bugs
+download: https://github.com/ollej/firefly-lampy/releases/latest/download/olle.blutti.zip
+links:
+  source code: https://github.com/ollej/firefly-lampy
+categories:
+  - type/game
+  - genre/action
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/arcade
+  - accessibility/colors
+  - accessibility/difficulty
+  - accessibility/reaction
+  - accessibility/two-handed
+  - accessibility/multi-button
+  - programming-language/rust
+desc: >
+  A multiplayer game where players compete to collect different colored fireflies.
