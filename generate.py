@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import fnmatch
 import json
 from pathlib import Path
 
@@ -13,6 +14,7 @@ ICONS = {
     'github.com': 'fa-brands fa-github',
     'gitlab.com': 'fa-brands fa-gitlab',
     'codeberg.org': 'fa-solid fa-code-branch',
+    '*.itch.io': 'fa-brands fa-itch-io',
     'home': 'fa-solid fa-home',
     'homepage': 'fa-solid fa-home',
 }
@@ -24,7 +26,12 @@ def get_icon(name: str, url: str) -> str | None:
         return icon
     url = url.removeprefix('https://')
     url = url.split('/')[0]
-    return ICONS.get(url)
+    icon = ICONS.get(url)
+    if icon is not None:
+        return icon
+    for pattern, icon in ICONS.items():
+        if fnmatch.fnmatch(url, pattern):
+            return icon
 
 
 class Category(BaseModel):
