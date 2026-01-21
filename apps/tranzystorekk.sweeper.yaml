@@ -2,7 +2,7 @@ name: Sweeper
 short: Simple minesweeper clone
 added: "2026-01-19"
 icon: fa-solid fa-bomb
-download: https://codeberg.org/tranzystorekk/sweeper/releases/download/v0.1.0/tranzystorekk.sweeper.zip
+download: https://codeberg.org/tranzystorekk/sweeper/releases/download/latest/tranzystorekk.sweeper.zip
 links:
   source code: https://codeberg.org/tranzystorekk/sweeper
 categories:
