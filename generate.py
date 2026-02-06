@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-import fnmatch
 import json
 from pathlib import Path
+from fnmatch import fnmatch
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
@@ -30,8 +30,9 @@ def get_icon(name: str, url: str) -> str | None:
     if icon is not None:
         return icon
     for pattern, icon in ICONS.items():
-        if fnmatch.fnmatch(url, pattern):
+        if fnmatch(url, pattern):
             return icon
+    return None
 
 
 class Category(BaseModel):
