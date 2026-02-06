@@ -6,18 +6,18 @@ download: https://play.c7.se/ff/fp8x8/rom/peter.fp8x8.zip
 links:
   source code: https://github.com/peterhellberg/ff-fp8x8/
 categories:
-  - type/tool
+  - type/tech
   - programming-language/zig
 desc: >
   **Monotone, 8×8px fill patterns**
 
 
-  A conversion of a small tool I originally wrote 
+  A conversion of a small tool I originally wrote
   for the [WASM4](https://wasm4.org/) fantasy console.
 
 
   _The patterns were converted from [bitsy](https://bitsy.org/) files found in [8x8.me](https://8x8.me/)
-  using a [converter](https://github.com/peterhellberg/w4-8x8-fill-patterns/blob/main/cmd/bitsy-to-w4-sprites/main.go) 
+  using a [converter](https://github.com/peterhellberg/w4-8x8-fill-patterns/blob/main/cmd/bitsy-to-w4-sprites/main.go)
   I wrote for the original version of the tool._
 
   ##### Controls

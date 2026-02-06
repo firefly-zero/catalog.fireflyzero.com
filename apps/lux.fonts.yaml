@@ -1,0 +1,13 @@
+name: Fonts Demo
+short: A simple showcase of the default Firefly Zero fonts.
+added: "2026-02-06"
+icon: fa-solid fa-font
+download: https://github.com/firefly-zero/fonts/releases/latest/download/lux.fonts.zip
+links:
+  source code: https://github.com/firefly-zero/fonts
+categories:
+  - type/tech
+  - programming-language/go
+desc: >
+  A simple demo app showcasing fonts from
+  [fonts.fireflyzero.com](https://fonts.fireflyzero.com/)
