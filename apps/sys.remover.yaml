@@ -1,0 +1,14 @@
+name: Remover
+short: Remove apps and their data
+added: "2026-02-19"
+icon: fa-solid fa-cog
+download: https://github.com/firefly-zero/firefly-remover/releases/latest/download/sys.remover.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-remover
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Uninstall apps, clear their data, remove screenshots.
+
+  To launch, open app menu in launcher and select "remove".
