@@ -5,6 +5,7 @@ icon: fa-solid fa-cog
 download: https://github.com/firefly-zero/firefly-settings/releases/latest/download/sys.settings.zip
 links:
   source code: https://github.com/firefly-zero/firefly-settings
+  documentation: https://docs.fireflyzero.com/user/settings/
 categories:
   - type/tool
   - programming-language/rust
