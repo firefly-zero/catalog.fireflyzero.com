@@ -13,6 +13,10 @@
       <i class="fa-solid fa-users"></i>
       authors
     </a>
+    <a href="./@sys.html" class="btn btn-light">
+      <i class="fa-solid fa-gear"></i>
+      system apps
+    </a>
     <a
       href="https://github.com/firefly-zero/catalog.fireflyzero.com?tab=readme-ov-file#add-a-new-app"
       target="_blank"
@@ -25,7 +29,9 @@
 
   <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
     {% for app in apps %}
-      {% include 'app-card.html.j2' %}
+      {% if app.author.id != "sys" %}
+        {% include 'app-card.html.j2' %}
+      {% endif %}
     {% endfor %}
   </main>
 {% endblock %}

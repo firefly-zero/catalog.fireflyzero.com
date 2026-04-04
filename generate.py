@@ -199,8 +199,8 @@ def main() -> None:
             apps=author_apps,
             get_icon=get_icon,
         )
-        (out_dir / f'{author.id}.html').write_text(content)
-        (out_dir / f'{author.id}.json').write_text(author.model_dump_json())
+        (out_dir / f'@{author.id}.html').write_text(content)
+        (out_dir / f'@{author.id}.json').write_text(author.model_dump_json())
 
 
 main()
