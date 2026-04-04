@@ -17,6 +17,7 @@ ICONS = {
     '*.itch.io': 'fa-brands fa-itch-io',
     'home': 'fa-solid fa-home',
     'homepage': 'fa-solid fa-home',
+    'mastodon': 'fa-brands fa-mastodon',
 }
 
 
