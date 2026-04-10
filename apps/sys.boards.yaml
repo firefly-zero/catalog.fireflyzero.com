@@ -1,0 +1,13 @@
+name: Boards
+short: Show scores for the given app
+added: "2026-04-10"
+icon: fa-solid fa-trophy
+download: https://github.com/firefly-zero/firefly-boards/releases/latest/download/sys.boards.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-boards
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Display information about scores and scoreboards for the given app.
+  Can be opened from the launcher using the app menu.

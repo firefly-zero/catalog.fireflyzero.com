@@ -7,7 +7,7 @@ links:
   source code: https://github.com/firefly-zero/firefly-input-test
 categories:
   - type/tool
-  - programming-language/go
+  - programming-language/rust
 desc: >
   A simple app to show what buttons are pressed and the finger position
   on the touch pad.

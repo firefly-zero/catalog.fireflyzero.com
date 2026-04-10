@@ -1,0 +1,13 @@
+name: Badges
+short: Show achievements for the given app
+added: "2026-04-10"
+icon: fa-solid fa-medal
+download: https://github.com/firefly-zero/firefly-badges/releases/latest/download/sys.badges.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-badges
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Display information about achievements for the given app.
+  Can be opened from the launcher using the app menu.

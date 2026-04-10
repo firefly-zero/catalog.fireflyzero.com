@@ -1,0 +1,13 @@
+name: Install Apps
+short: Install apps using install.fireflyzero.com
+added: "2026-04-10"
+icon: fa-solid fa-download
+download: https://github.com/firefly-zero/firefly-installer/releases/latest/download/sys.installer.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-installer
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Download and install apps using
+  [install.fireflyzero.com](https://install.fireflyzero.com/).

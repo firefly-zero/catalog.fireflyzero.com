@@ -1,0 +1,13 @@
+name: Manuals
+short: Show the manual for the given app
+added: "2026-04-10"
+icon: fa-solid fa-book-open
+download: https://github.com/firefly-zero/firefly-manuals/releases/latest/download/sys.manuals.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-manuals
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Display the game manual for the given app.
+  Can be opened from the launcher using the app menu.
