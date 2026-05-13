@@ -1,5 +1,6 @@
 name: Lampy
 short: Collect as many fireflies as possible
+coauthor: boots
 added: "2026-01-20"
 icon: fa-solid fa-bugs
 download: https://github.com/ollej/firefly-lampy/releases/latest/download/olle.lampy.zip

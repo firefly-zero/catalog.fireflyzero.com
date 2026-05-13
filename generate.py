@@ -13,6 +13,8 @@ from pydantic import BaseModel, ConfigDict, Field
 ICONS = {
     'github.com': 'fa-brands fa-github',
     'gitlab.com': 'fa-brands fa-gitlab',
+    'instagram.com': 'fa-brands fa-instagram',
+    'www.instagram.com': 'fa-brands fa-instagram',
     'codeberg.org': 'fa-solid fa-code-branch',
     '*.itch.io': 'fa-brands fa-itch-io',
     'home': 'fa-solid fa-home',
@@ -72,6 +74,7 @@ class App(BaseModel):
     name: str = Field(min_length=2, max_length=40)
     badge: Badge | None = None
     author: Author
+    coauthor: Author | None = None
     short: str = Field(min_length=4, max_length=140)
     added: str = Field(pattern=r'^20[234][0-9]-[01][0-9]-[0123][0-9]$')
     download: str = Field(pattern=r'^https://.+\.')
@@ -98,6 +101,11 @@ class App(BaseModel):
         if path.exists():
             return f'./splash/{self.id}.png'
         return None
+
+    def authored_by(self, id: str) -> bool:
+        if self.coauthor and self.coauthor.id == id:
+            return True
+        return self.author.id == id
 
     def short_dump(self) -> dict[str, object]:
         """Get a dictionary with the most basic attributes of the app.
@@ -138,7 +146,20 @@ def load_apps() -> list[App]:
         author_path = Path('authors', f'{author_id}.yaml')
         author_raw = yaml.safe_load(author_path.read_text())
         author = Author(id=author_id, **author_raw)
-        app = App(id=app_path.stem, author=author, **app_raw)
+
+        coauthor: Author | None = None
+        coauthor_id = app_raw.pop('coauthor', None)
+        if coauthor_id:
+            coauthor_path = Path('authors', f'{coauthor_id}.yaml')
+            coauthor_raw = yaml.safe_load(coauthor_path.read_text())
+            coauthor = Author(id=coauthor_id, **coauthor_raw)
+
+        app = App(
+            id=app_path.stem,
+            author=author,
+            coauthor=coauthor,
+            **app_raw,
+        )
         apps.append(app)
     apps.sort(key=lambda a: a.name.lower())
     apps.sort(key=lambda a: a.added, reverse=True)
@@ -204,7 +225,7 @@ def main() -> None:
     # render page for each author
     template = env.get_template('author.html.j2')
     for author in authors:
-        author_apps = [app for app in apps if app.author.id == author.id]
+        author_apps = [app for app in apps if app.authored_by(author.id)]
         content = template.render(
             author=author,
             apps=author_apps,

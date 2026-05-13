@@ -20,6 +20,9 @@
           <a href="/@{{ app.author.id }}.html">
             {{ app.author.name }}
           </a>
+          {% if app.coauthor.id %}
+            and <a href="/@{{ app.coauthor.id }}.html">{{ app.coauthor.name }}</a>
+          {% endif %}
         </li>
         <li>
           <i class="fa-solid fa-fw fa-calendar-plus" title="date added"></i>

@@ -18,6 +18,9 @@
         <br/>
         <span class="fs-6">
           by <a href="@{{ app.author.id }}.html">{{ app.author.name }}</a>
+          {% if app.coauthor.id %}
+            and <a href="@{{ app.coauthor.id }}.html">{{ app.coauthor.name }}</a>
+          {% endif %}
         </span>
       </h5>
       <p class="card-text">{{ app.short }}</p>
