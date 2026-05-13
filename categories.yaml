@@ -416,7 +416,7 @@ accessibility:
     name: Requires hearing audio
     icon: fa-solid fa-ear-waveform
   difficulty:
-    name: Game difficulty/speed cannot be adjusted
+    name: Difficulty/speed cannot be adjusted
     icon: fa-solid fa-gauge
   reaction:
     name: Requires good reaction and timed inputs
@@ -431,11 +431,16 @@ accessibility:
     name: Requires reading and understanding text to progress
     icon: fa-solid fa-file-lines
   flashing:
-    name: Game contains flashing lights
+    name: Contains flashing lights
     icon: fa-solid fa-bolt
   dizziness:
-    name: Game contains rapid movement that can cause dizziness
+    name: Contains rapid movement that can cause dizziness
     icon: fa-solid fa-face-dizzy
+  spiders:
+    name: Contains spiders or spider-like creatures
+    # FA has "fa-spider" but we don't want to trigger arachnophobia.
+    # The bug is close enough but not too much.
+    icon: fa-solid fa-bug
 
 programming-language:
   as:
@@ -448,6 +453,8 @@ programming-language:
     name: Bulb Script
   c:
     name: C
+  chip8:
+    name: CHIP-8
   csharp:
     name: C#
   cpp:

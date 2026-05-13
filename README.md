@@ -17,12 +17,12 @@ Some things you should know:
 
 Requirements:
 
-1. The app should feel finished and polished. Tech demos are allowed in their own category (`type/tech` or `type/demo`).
-1. The app must not be hateful or offensive.
-1. The app must be suitable for all ages.
-1. The app (code, assets, dialogs, or anything else) must not be AI-generated. Using AI-assisted tools is fine.
-1. The app should be native to Firefly Zero. Games running on an emulator (Bitsy, GameBoy, etc) are not allowed. Native ports are allowed. Emulators themselves are allowed if they can be installed and used as a standalone app.
-1. You should be the app's author or have the author's permission to publish it.
+1. The app should feel **finished and polished**. Tech demos are allowed in their own category (`type/tech` or `type/demo`).
+1. The app must **not be hateful or offensive**.
+1. The app must be **suitable for all ages**.
+1. The app (code, assets, dialogs, or anything else) must **not be AI-generated**. Using AI-assisted tools is fine.
+1. The app should be **native to Firefly Zero**. Games running on an emulator (Bitsy, GameBoy, etc) are not allowed. Native ports are allowed. Emulators themselves are allowed if they can be installed and used as a standalone app. Note: we reserve the right to bypass this rule and publish selected officially-emulated games to the catalog.
+1. You should be the app's author or have the author's **permission to publish** it. A FOSS license explicitly allowing redistiribution is considered the author's permission.
 
 How to:
 
