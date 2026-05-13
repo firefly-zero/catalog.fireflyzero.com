@@ -1,0 +1,15 @@
+name: Tetris
+short: Just some block-falling game.
+added: "2026-05-13"
+icon: fa-solid fa-cubes-stacked
+download: https://github.com/firefly-zero/chip8-games/releases/latest/download/chip8.tetris.zip
+categories:
+  - type/game
+  - genre/puzzle
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/chip8
+desc: |
+  A 1991 game by **Fran Dachille** running on a
+  [CHIP-8 emulator](https://github.com/firefly-zero/firefly-chip8).

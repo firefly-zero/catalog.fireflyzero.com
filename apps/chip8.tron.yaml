@@ -1,0 +1,16 @@
+name: Tron
+short: A game based on the famous 1982 movie.
+added: "2026-05-13"
+icon: fa-solid fa-motorcycle
+download: https://github.com/firefly-zero/chip8-games/releases/latest/download/chip8.tron.zip
+categories:
+  - type/game
+  - genre/action
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/chip8
+desc: |
+  A game running on a
+  [CHIP-8 emulator](https://github.com/firefly-zero/firefly-chip8).
+  The author is unknown.
