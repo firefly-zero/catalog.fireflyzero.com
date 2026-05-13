@@ -28,13 +28,13 @@
   </header>
 
   <main class="row row-cols-1 row-cols-md-4 g-1 mt-1">
-    <h2 class="col col-xl-12">Best</h2>
+    <h2 class="col col-md-12">Best</h2>
     {% for app in apps %}
       {% if app.visible and app.badge %}
         {% include 'app-card.html.j2' %}
       {% endif %}
     {% endfor %}
-    <h2 class="col col-xl-12">Rest</h2>
+    <h2 class="col col-md-12">Rest</h2>
     {% for app in apps %}
       {% if app.visible and not app.badge %}
         {% include 'app-card.html.j2' %}

@@ -1,0 +1,16 @@
+name: CHIP-8
+pronouns: they/them
+links:
+  github: https://github.com/firefly-zero/chip8-games
+short: CHIP-8 games for Firefly Zero
+about: |
+  A collection of some of the best [CHIP-8][C] games emulated for [Firefly Zero][F].
+  All included games are from the public [CHIP-8 archive][A].
+  The original author is linked in the description for each game.
+
+  Please, [open an issue][I] if you want your game to be removed from the catalog.
+
+  [C]: https://en.wikipedia.org/wiki/CHIP-8
+  [F]: https://fireflyzero.com/
+  [A]: https://github.com/dmatlack/chip8/tree/master/roms
+  [I]: https://github.com/firefly-zero/chip8-games/issues/new

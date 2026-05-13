@@ -1,0 +1,15 @@
+name: Invaders
+short: A very simplified clone of the famous 1978 game Space Invaders.
+added: "2026-05-13"
+icon: fa-solid fa-rocket
+download: https://github.com/firefly-zero/chip8-games/releases/latest/download/chip8.invaders.zip
+categories:
+  - type/game
+  - genre/action
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/arcade
+  - programming-language/chip8
+desc: |
+  A game by **David Winter** running on a
+  [CHIP-8 emulator](https://github.com/firefly-zero/firefly-chip8).

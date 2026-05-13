@@ -1,0 +1,15 @@
+name: Hidden
+short: This is a "memory" game. It is very simple to play.
+added: "2026-05-13"
+icon: fa-solid fa-diamond
+download: https://github.com/firefly-zero/chip8-games/releases/latest/download/chip8.hidden.zip
+categories:
+  - type/game
+  - genre/puzzle
+  - perspective/top-down
+  - pacing/turn-based
+  - gameplay/mental-training
+  - programming-language/chip8
+desc: |
+  A 1996 game by **David Winter** running on a
+  [CHIP-8 emulator](https://github.com/firefly-zero/firefly-chip8).
