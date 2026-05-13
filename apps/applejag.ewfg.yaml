@@ -1,7 +1,10 @@
-name: Epic Wizard Firefly Gladiator
+name: Epic Wizard Firefly Gladiators
 short: Cosy firefly training simulator
 added: "2026-01-19"
 icon: fa-solid fa-dumbbell
+badge:
+  text: best art
+  icon: fa-solid fa-palette
 download: https://github.com/applejag/epic-wizard-firefly-gladiators/releases/latest/download/applejag.ewfg.zip
 links:
   source code: https://github.com/applejag/epic-wizard-firefly-gladiators

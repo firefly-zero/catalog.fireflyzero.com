@@ -2,6 +2,9 @@ name: Snek
 short: Snake-inspired game with 360° movement.
 added: "2024-05-02"
 icon: fa-solid fa-staff-snake
+badge:
+  text: best multiplayer
+  icon: fa-solid fa-wifi
 download: https://github.com/firefly-zero/snek/releases/latest/download/lux.snek.zip
 links:
   source code: https://github.com/firefly-zero/snek

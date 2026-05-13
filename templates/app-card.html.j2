@@ -4,11 +4,18 @@
       <img src="{{ app.splash }}" class="card-img-top splash"/>
     {% endif %}
     <div class="card-body">
+      {% if app.badge %}
+        <span class="badge text-bg-dark">
+          <i class="{{ app.badge.icon }}"></i>
+          {{ app.badge.text }}
+        </span>
+      {% endif %}
       <h5 class="card-title">
         {% if app.icon %}
           <i class="{{ app.icon }}"></i>
         {% endif %}
-        {{ app.name }}<br/>
+        {{ app.name }}
+        <br/>
         <span class="fs-6">
           by <a href="@{{ app.author.id }}.html">{{ app.author.name }}</a>
         </span>

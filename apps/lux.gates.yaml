@@ -2,6 +2,9 @@ name: Through the Gate
 short: Fly through the gates.
 added: "2025-08-08"
 icon: fa-solid fa-meteor
+badge:
+  text: best action
+  icon: fa-solid fa-person-running
 download: https://github.com/firefly-zero/gates/releases/latest/download/lux.gates.zip
 links:
   source code: https://github.com/firefly-zero/gates

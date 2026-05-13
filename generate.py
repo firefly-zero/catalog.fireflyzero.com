@@ -62,9 +62,15 @@ class Author(BaseModel):
     model_config = ConfigDict(extra='forbid')
 
 
+class Badge(BaseModel):
+    text: str
+    icon: str = Field(pattern=r'^fa-')
+
+
 class App(BaseModel):
     id: str = Field(pattern=r'^.{1,16}\..{1,16}$')
     name: str = Field(min_length=2, max_length=40)
+    badge: Badge | None = None
     author: Author
     short: str = Field(min_length=4, max_length=140)
     added: str = Field(pattern=r'^20[234][0-9]-[01][0-9]-[0123][0-9]$')
@@ -81,6 +87,10 @@ class App(BaseModel):
         """True if the download link is a direct download for the file.
         """
         return self.download.endswith('.zip')
+
+    @property
+    def visible(self) -> bool:
+        return self.author.id != 'sys'
 
     @property
     def splash(self) -> str | None:
