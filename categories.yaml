@@ -485,3 +485,7 @@ programming-language:
     name: Swift
   zig:
     name: Zig
+
+events:
+  jam1:
+    name: "Firefly Zero gamejam #1"

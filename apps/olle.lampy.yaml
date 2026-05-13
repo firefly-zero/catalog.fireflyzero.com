@@ -17,5 +17,6 @@ categories:
   - accessibility/two-handed
   - accessibility/multi-button
   - programming-language/rust
+  - events/jam1
 desc: >
   A multiplayer game where players compete to collect different colored fireflies.

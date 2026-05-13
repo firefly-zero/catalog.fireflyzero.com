@@ -9,6 +9,7 @@ categories:
   - type/game
   - pacing/real-time
   - programming-language/zig
+  - events/jam1
 desc: >
   **Green circles are prey, red circles are predators.**
 

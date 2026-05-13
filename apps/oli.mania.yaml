@@ -12,6 +12,7 @@ categories:
   - pacing/real-time
   - gameplay/arcade
   - programming-language/rust
+  - events/jam1
 desc: >
   Fly into the green zone to progress to the next level.
    Don't touch the walls or you will be respawned at the start of each level.
