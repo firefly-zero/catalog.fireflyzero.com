@@ -10,6 +10,12 @@
           {{ app.badge.text }}
         </span>
       {% endif %}
+      {% if app.new %}
+        <span class="badge text-bg-dark">
+          <i class="fa-solid fa-gift"></i>
+          new
+        </span>
+      {% endif %}
       <h5 class="card-title">
         {% if app.icon %}
           <i class="{{ app.icon }}"></i>

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime, timedelta
 import json
 from pathlib import Path
 from fnmatch import fnmatch
@@ -94,6 +95,11 @@ class App(BaseModel):
     @property
     def visible(self) -> bool:
         return self.author.id != 'sys'
+
+    @property
+    def new(self) -> bool:
+        month_ago = datetime.now() - timedelta(days=30)
+        return self.added >= month_ago.strftime('%Y-%m-%d')
 
     @property
     def splash(self) -> str | None:
