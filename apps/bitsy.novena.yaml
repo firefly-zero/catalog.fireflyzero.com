@@ -2,6 +2,9 @@ name: novena
 short: a supplication
 added: "2026-01-08"
 icon: fa-solid fa-water
+badge:
+  text: best story
+  icon: fa-solid fa-book
 download: https://github.com/firefly-zero/bitsy-games/releases/latest/download/bitsy.novena.zip
 links:
   original: https://haraiva.itch.io/novena

@@ -3,6 +3,9 @@ short: Collect as many fireflies as possible
 coauthor: boots
 added: "2026-01-20"
 icon: fa-solid fa-bugs
+badge:
+  text: relaxing multiplayer
+  icon: fa-solid fa-couch
 download: https://github.com/ollej/firefly-lampy/releases/latest/download/olle.lampy.zip
 links:
   source code: https://github.com/ollej/firefly-lampy
