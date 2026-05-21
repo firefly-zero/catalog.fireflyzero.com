@@ -5,18 +5,18 @@
         {{ author.name }}
       </h5>
       <p class="card-text">{{ author.short }}</p>
-      <div>
-        <a href="@{{ author.id }}.html" class="btn btn-primary">
-            <i class="fa-solid fa-folder-open"></i>
-            apps
-        </a>
-        <a href="{{ author.first_link[1] }}" class="btn btn-primary">
-            {% if get_icon(*author.first_link) %}
-              <i class="{{ get_icon(*author.first_link) }}"></i>
-            {% endif %}
-            {{ author.first_link[0] }}
-        </a>
-      </div>
+    </div>
+    <div class="card-footer">
+      <a href="@{{ author.id }}.html" class="btn btn-primary">
+          <i class="fa-solid fa-folder-open"></i>
+          apps
+      </a>
+      <a href="{{ author.first_link[1] }}" class="btn btn-primary">
+          {% if get_icon(*author.first_link) %}
+            <i class="{{ get_icon(*author.first_link) }}"></i>
+          {% endif %}
+          {{ author.first_link[0] }}
+      </a>
     </div>
   </article>
 </div>
