@@ -21,7 +21,9 @@
             {{ app.author.name }}
           </a>
           {% if app.coauthor.id %}
-            and <a href="/@{{ app.coauthor.id }}.html">{{ app.coauthor.name }}</a>
+            and <a href="/@{{ app.coauthor.id }}.html">
+              {{ app.coauthor.name }}
+            </a>
           {% endif %}
         </li>
         <li>
@@ -49,13 +51,13 @@
       <a
         href="{{ app.download }}"
         {% if app.direct %}download{% else %}target="_blank"{% endif %}
-        class="btn btn-light"
+        class="btn btn-primary"
       >
         <i class="fa-solid fa-download"></i>
         download
       </a>
       {% for name, url in (app.links or {}).items() %}
-        <a href="{{ url }}" target="_blank" class="btn btn-light">
+        <a href="{{ url }}" target="_blank" class="btn btn-primary">
           {% if get_icon(name, url) %}
             <i class="{{ get_icon(name, url) }}"></i>
           {% endif %}
