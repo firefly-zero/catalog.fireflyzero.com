@@ -66,6 +66,10 @@ class Author(BaseModel):
 
     model_config = ConfigDict(extra='forbid')
 
+    @property
+    def first_link(self) -> tuple[str, str]:
+        return list(self.links.items())[0]
+
 
 class Badge(BaseModel):
     text: str
@@ -227,7 +231,7 @@ def main() -> None:
 
     # render list of authors
     template = env.get_template('authors.html.j2')
-    content = template.render(authors=authors)
+    content = template.render(authors=authors, get_icon=get_icon)
     (out_dir / 'authors.html').write_text(content)
 
     # render page for each author
