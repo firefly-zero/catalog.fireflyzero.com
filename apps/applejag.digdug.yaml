@@ -1,0 +1,29 @@
+name: DigDug
+short: Cosy digging simulator
+added: "2026-05-20"
+icon: fa-solid fa-person-digging
+download: https://git.sr.ht/~applejag/digdug/refs/download/jam-submission/applejag.digdug.zip
+links:
+  source code: https://git.sr.ht/~applejag/digdug
+  itch.io: https://applejag.itch.io/digdug
+categories:
+  - type/game
+  - genre/simulation
+  - perspective/side-view
+  - pacing/meditative
+  - gameplay/sandbox
+  - programming-language/go
+desc: |
+  ***Surprise the shop keeper*** with resources by digging until your shovel breaks.
+  Sell to gain cash and repair your shovel. Repeat.
+
+  Written using [Go](https://go.dev) as part of the [Firefly Zero Jam #2](https://itch.io/jam/firefly-jam-2)
+
+  ## Credits
+
+  Code and art by: applejag
+
+  Fonts used:
+
+  - [IBM437b](https://github.com/sbechet/ibm437) - Copyright © 2020 Sebastien Bechet  ([MIT](https://github.com/sbechet/ibm437/blob/877ff2e29df28851b4ddea7642b515eaf49e0a33/LICENCE), downloaded from [fonts.fireflyzero.com](https://fonts.fireflyzero.com/ascii))
+  - [ProFont](https://tobiasjung.name/profont/) - Copyright © 2014 Tobias Jung  ([MIT](http://opensource.org/licenses/mit-license.php), downloaded from [fonts.fireflyzero.com](https://fonts.fireflyzero.com/ascii))
