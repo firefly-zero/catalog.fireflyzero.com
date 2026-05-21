@@ -208,6 +208,12 @@ def main() -> None:
     categories = load_categories()
     out_dir = Path('public')
 
+    # sort authors, put the authors with the most apps first
+    authors.sort(key=lambda author: (
+        -len([1 for app in apps if app.author.id == author.id]),
+        author.id,
+    ))
+
     # render list of apps and some other pages
     for slug in ('index', '404', 'random'):
         template = env.get_template(f'{slug}.html.j2')

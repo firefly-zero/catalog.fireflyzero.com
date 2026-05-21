@@ -3,6 +3,9 @@
     <div class="card-body">
       <h5 class="card-title">
         {{ author.name }}
+        {% if author.name.lower() != author.id.lower() %}
+          <span class="text-muted">/ @{{ author.id }}</span>
+        {% endif %}
       </h5>
       <p class="card-text">{{ author.short }}</p>
     </div>
