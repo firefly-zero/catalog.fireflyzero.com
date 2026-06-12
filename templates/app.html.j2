@@ -2,6 +2,13 @@
 {% block title %}
   {{ app.name }} by {{ app.author.name }}
 {% endblock %}
+{% block headers %}
+  <meta
+    name="og:description"
+    content="{{ app.name }} by {{ app.author.name }}{% if app.author.github_username %} (@{{ app.author.github_username }}){% endif %}"
+  />
+  <meta name="og:image" content="{{ app.splash }}" />
+{% endblock %}
 {% block body %}
   <div class="row justify-content-center mb-1 app-page">
     <div class="col col-md-6">

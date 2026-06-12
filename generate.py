@@ -70,6 +70,18 @@ class Author(BaseModel):
     def first_link(self) -> tuple[str, str]:
         return list(self.links.items())[0]
 
+    @property
+    def github_username(self) -> str | None:
+        prefix = 'https://github.com/'
+        for link in self.links.values():
+            if not link.startswith(prefix):
+                continue
+            username = link.removeprefix(prefix)
+            username = username.strip('/')
+            if username and '/' not in username:
+                return username
+        return None
+
 
 class Badge(BaseModel):
     text: str
