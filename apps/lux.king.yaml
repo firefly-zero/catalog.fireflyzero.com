@@ -2,9 +2,9 @@ name: Eat the Red King
 short: Abstract 2-player PvP turn-based game.
 added: "2025-08-04"
 icon: fa-solid fa-crown
-download: https://github.com/firefly-zero/king/releases/latest/download/lux.king.zip
+download: https://codeberg.org/firefly-zero/king/releases/download/latest/lux.king.zip
 links:
-  source code: https://github.com/firefly-zero/king
+  source code: https://codeberg.org/firefly-zero/king
 categories:
   - type/game
   - genre/puzzle

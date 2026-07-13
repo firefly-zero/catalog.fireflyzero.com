@@ -2,9 +2,9 @@ name: Shoot!
 short: PvP/co-op game about shooting little red dots and each other.
 added: "2025-08-03"
 icon: fa-solid fa-ellipsis-vertical
-download: https://github.com/firefly-zero/shoot/releases/latest/download/lux.shoot.zip
+download: https://codeberg.org/firefly-zero/shoot/releases/download/latest/lux.shoot.zip
 links:
-  source code: https://github.com/firefly-zero/shoot
+  source code: https://codeberg.org/firefly-zero/shoot
 categories:
   - type/game
   - genre/action

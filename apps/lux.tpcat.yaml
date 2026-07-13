@@ -2,9 +2,9 @@ name: Cat vs Toilet Paper
 short: The ultimate cat simulator.
 added: "2025-08-02"
 icon: fa-solid fa-toilet-paper
-download: https://github.com/firefly-zero/tpcat/releases/latest/download/lux.tpcat.zip
+download: https://codeberg.org/firefly-zero/tpcat/releases/download/latest/lux.tpcat.zip
 links:
-  source code: https://github.com/firefly-zero/tpcat
+  source code: https://codeberg.org/firefly-zero/tpcat
 categories:
   - type/game
   - genre/simulation

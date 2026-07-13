@@ -5,9 +5,9 @@ icon: fa-solid fa-meteor
 badge:
   text: best action
   icon: fa-solid fa-person-running
-download: https://github.com/firefly-zero/gates/releases/latest/download/lux.gates.zip
+download: https://codeberg.org/firefly-zero/gates/releases/download/latest/lux.gates.zip
 links:
-  source code: https://github.com/firefly-zero/gates
+  source code: https://codeberg.org/firefly-zero/gates
 categories:
   - type/game
   - genre/action

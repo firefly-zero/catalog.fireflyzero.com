@@ -2,9 +2,9 @@ name: Follow fireflies
 short: A little firefly-themed poem with deadly traps
 added: "2026-01-17"
 icon: fa-solid fa-bed
-download: https://github.com/firefly-zero/follow/releases/latest/download/lux.follow.zip
+download: https://codeberg.org/firefly-zero/follow/releases/download/latest/lux.follow.zip
 links:
-  source code: https://github.com/firefly-zero/follow
+  source code: https://codeberg.org/firefly-zero/follow
 categories:
   - type/game
   - genre/adventure
