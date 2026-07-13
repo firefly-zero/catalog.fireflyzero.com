@@ -1,0 +1,28 @@
+name: Celeste Classic
+short: A platformer about climbing a mountain.
+added: "2026-07-13"
+icon: fa-solid fa-mountain
+download: https://codeberg.org/firefly-zero/celeste/releases/download/latest/lux.celeste.zip
+links:
+  source code: https://codeberg.org/firefly-zero/celeste
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/platform
+  - accessibility/difficulty
+  - accessibility/reaction
+  - accessibility/two-handed
+  - programming-language/rust
+desc: |
+  Unofficial port of [Celeste Classic](https://maddymakesgamesinc.itch.io/celesteclassic).
+
+  ## Copyright and license
+
+  * [Original game](https://maddymakesgamesinc.itch.io/celesteclassic) is by [Maddy Thorson](https://www.maddymakesgames.com/) and Noel Berry ([Extremely OK Games](https://exok.com/)). Unlicensed.
+  * Game assets are by Maddy Thorson and Noel Berry. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+  * [Rust port](https://github.com/jjant/runty8/blob/master/examples/celeste/main.rs) by [Julian Antonielli](https://github.com/jjant). [MIT License](https://github.com/jjant/runty8/blob/master/LICENSE).
+  * Firefly Zero port by [Firefly Zero](https://fireflyzero.com/) core team. [MIT License](./LICENSE).
+
+  The port is unofficial and is not endorsed by the original game authors. If you like the game, buy [the PC version of Celeste](https://exok.com/games/celeste/).
