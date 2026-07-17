@@ -1,0 +1,27 @@
+name: Blueberry
+short: A fun platformer with gliding and wall jumps
+added: "2026-07-17"
+icon: fa-solid fa-helicopter
+download: https://codeberg.org/firefly-zero/blueberry/releases/download/latest/lux.blueberry.zip
+links:
+  source code: https://codeberg.org/firefly-zero/blueberry
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/platform
+  - accessibility/difficulty
+  - accessibility/reaction
+  - accessibility/two-handed
+  - programming-language/go
+desc: |
+  A fun platformer with gliding and wall jumps.
+
+  This is a port of [Antcopter](https://edubart.itch.io/antcopter) ([source](https://github.com/edubart/antcopter)) by [Eduardo Bart](https://github.com/edubart). The port is a complete rewrite from Nelua to Go with some bugfixes and new graphics.
+
+  ## Credits
+
+  * Original game: [Antcopter](https://edubart.itch.io/antcopter) by [Eduardo Bart](https://github.com/edubart).
+  * Level assets: [Peaceful nightfield](https://trixelized.itch.io/nightfield) by [Trixie](https://trixelized.itch.io/).
+  * Port: Firefly Zero core team.
