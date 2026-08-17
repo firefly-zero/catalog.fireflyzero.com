@@ -6,9 +6,9 @@ icon: fa-solid fa-dumbbell
 badge:
   text: best art
   icon: fa-solid fa-palette
-download: https://github.com/applejag/epic-wizard-firefly-gladiators/releases/latest/download/applejag.ewfg.zip
+download: https://codeberg.com/applejag/epic-wizard-firefly-gladiators/releases/latest/download/applejag.ewfg.zip
 links:
-  source code: https://github.com/applejag/epic-wizard-firefly-gladiators
+  source code: https://codeberg.com/applejag/epic-wizard-firefly-gladiators
   itch.io: https://applejag.itch.io/epic-wizard-firefly-gladiators
 categories:
   - type/game

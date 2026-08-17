@@ -2,9 +2,9 @@ name: DigDug
 short: Cosy digging simulator
 added: "2026-05-20"
 icon: fa-solid fa-person-digging
-download: https://git.sr.ht/~applejag/digdug/refs/download/jam-submission/applejag.digdug.zip
+download: https://codeberg.org/applejag/digdug/releases/download/latest/applejag.digdug.zip
 links:
-  source code: https://git.sr.ht/~applejag/digdug
+  source code: https://codeberg.org/applejag/digdug
   itch.io: https://applejag.itch.io/digdug
 categories:
   - type/game
