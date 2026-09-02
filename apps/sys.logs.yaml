@@ -1,0 +1,13 @@
+name: Logs
+short: Show logs for the given app
+added: "2026-09-02"
+icon: fa-solid fa-newspaper
+download: https://github.com/firefly-zero/firefly-logs/releases/latest/download/sys.logs.zip
+links:
+  source code: https://github.com/firefly-zero/firefly-logs
+categories:
+  - type/tool
+  - programming-language/rust
+desc: |
+  Display the log records (both debug end error) emitted by the given app.
+  Can be opened from the launcher using the app menu.
