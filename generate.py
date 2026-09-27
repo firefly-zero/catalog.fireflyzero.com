@@ -136,10 +136,13 @@ class App(BaseModel):
 
         Used to generate the JSON list of all apps.
         """
+        author_name = self.author.name
+        if self.coauthor:
+            author_name = f"{author_name} & {self.coauthor.name}"
         return {
             'id': self.id,
             'name': self.name,
-            'author': self.author.name,
+            'author': author_name,
             'short': self.short,
             'added': self.added,
         }
@@ -262,7 +265,11 @@ def main() -> None:
             get_icon=get_icon,
         )
         (out_dir / f'@{author.id}.html').write_text(content)
-        (out_dir / f'@{author.id}.json').write_text(author.model_dump_json())
+
+        author_dict = author.model_dump()
+        author_dict["apps"] = [app.short_dump() for app in author_apps]
+        author_json = json.dumps(author_dict, separators=(",", ":"))
+        (out_dir / f'@{author.id}.json').write_text(author_json)
 
 
 main()
