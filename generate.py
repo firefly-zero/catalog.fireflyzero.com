@@ -16,7 +16,7 @@ ICONS = {
     'gitlab.com': 'fa-brands fa-gitlab',
     'instagram.com': 'fa-brands fa-instagram',
     'www.instagram.com': 'fa-brands fa-instagram',
-    'codeberg.org': 'fa-solid fa-code-branch',
+    'codeberg.org': 'fa-brands fa-codeberg',
     '*.sr.ht': 'fa-regular fa-circle',
     'sr.ht': 'fa-regular fa-circle',
     '*.itch.io': 'fa-brands fa-itch-io',
