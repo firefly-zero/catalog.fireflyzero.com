@@ -14,7 +14,7 @@ categories:
   - gameplay/sandbox
   - programming-language/go
 desc: |
-  ***Surprise the shop keeper*** with resources by digging until your shovel breaks.
+  ***Find surprises when digging*** after precious resources in the asteroid belt.
   Sell to gain cash and repair your shovel. Repeat.
 
   Written using [Go](https://go.dev) as part of the [Firefly Zero Jam #2](https://itch.io/jam/firefly-jam-2)
