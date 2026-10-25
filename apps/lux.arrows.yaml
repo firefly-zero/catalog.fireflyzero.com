@@ -1,0 +1,34 @@
+name: Arrows Blues
+short: A little multiplayer platformer fighter about shooting your friends with arrows for fun
+added: "2026-10-25"
+icon: fa-solid fa-bullseye
+download: https://codeberg.org/firefly-zero/arrows/releases/download/latest/lux.arrows.zip
+links:
+  source code: https://codeberg.org/firefly-zero/arrows
+badge:
+  text: best multiplayer
+  icon: fa-solid fa-wifi
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/platform
+  - gameplay/fighting
+  - gameplay/party
+  - gameplay/shooter
+  - setting/fantasy
+  - accessibility/colors
+  - accessibility/reaction
+  - accessibility/two-handed
+  - programming-language/go
+desc: |
+  A little multiplayer platformer fighter about shooting your friends with arrows for fun.
+
+  ## Credits
+
+  * Level design and the primary inspiration: [TowerFall](https://en.wikipedia.org/wiki/TowerFall)
+  * Movement: [Celeste Classic 2](https://maddymakesgamesinc.itch.io/celeste-classic-2)
+  * Dash: [Celeste](https://www.lexaloffle.com/bbs/?pid=11722)
+  * Character assets: [Pixel Protagonist+](https://penzilla.itch.io/protagonist-character-expanded)
+  * Background assets: [Chroma Noir](https://v3x3d.itch.io/chroma-noir)
