@@ -488,4 +488,8 @@ programming-language:
 
 events:
   jam1:
-    name: "Firefly Zero gamejam #1"
+    name: "Gamejam #1: Fireflies"
+  jam2:
+    name: "Gamejam #2: Surprise"
+  jam3:
+    name: "Gamejam #3: Ghosts"
