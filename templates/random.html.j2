@@ -3,7 +3,9 @@
   <script>
     const apps = [
       {% for app in apps %}
-        "./{{ app.id }}.html",
+        {% if app.visible %}
+          "./{{ app.id }}.html",
+        {% endif %}
       {% endfor %}
     ];
     const app = apps[Math.floor(Math.random() * apps.length)];
