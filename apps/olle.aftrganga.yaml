@@ -1,0 +1,54 @@
+name: Aftrganga
+short: Top-down horde shooter with a draugr protecting his haug
+coauthor: boots
+added: "2026-11-02"
+icon: fa-solid fa-ghost
+download: https://github.com/ollej/firefly-aftrganga/releases/latest/download/olle.aftrganga.zip
+links:
+  source code: https://github.com/ollej/firefly-aftrganga
+  itch: https://ollej.itch.io/aftrganga
+categories:
+  - type/game
+  - genre/action
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/shooter
+  - accessibility/colors
+  - theme/horror
+  - accessibility/difficulty
+  - accessibility/reaction
+  - accessibility/two-handed
+  - accessibility/multi-button
+  - programming-language/rust
+  - events/jam3
+desc: |
+  Play as a draugr defending your haug from evil viking grave robbers.
+
+  The aftrganga, or draugr, is a malevolent revenant that lives in a barrow
+  guarding the treasure horde buried inside. It's a corporeal undead ghost of the
+  deceased buried within the grave mound.
+
+  Shoot all the invading viking grave robbers and try to survive for as long
+  as possible.
+
+  ## Keyboard controls
+
+  - Arrow keys: move your draugr.
+  - X or Enter: shoot.
+  - TAB: Open menu to restart game.
+  - Escape: close the game.
+
+  ## Credits
+
+  ### Code
+
+  - Olle Wreede
+  - boots
+
+  ### Graphics
+
+  - boots
+
+  ### Music
+
+  - The Cynic Project / cynicmusic.com / pixelsphere.org
