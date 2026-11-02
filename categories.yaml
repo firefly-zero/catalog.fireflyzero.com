@@ -475,6 +475,8 @@ programming-language:
     name: Lua
   moonbit:
     name: MoonBit
+  odin:
+    name: Odin
   python:
     name: Python
   ruby:
