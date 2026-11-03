@@ -1,0 +1,30 @@
+name: Boo!
+short: "My entry for the Firefly Zero Jam #3"
+added: "2026-11-03"
+icon: fa-solid fa-ghost
+download: https://play.c7.se/ff/boo/rom/peter.boo.zip
+links:
+  source code: https://github.com/peterhellberg/ff-boo/
+categories:
+  - type/game
+  - pacing/real-time
+  - programming-language/zig
+  - events/jam3
+desc: >
+  **Herd each ghost back to its grave before dawn breaks.**
+
+
+  _Written using [Zig](https://ziglang.org/) as part of the [Firefly Zero Jam #3](https://itch.io/jam/firefly-jam-3)_
+  
+  ##### Jam version
+  
+  _Looking for the version of the game [submitted](https://itch.io/jam/firefly-jam-3/rate/5280160) to the jam?_
+
+
+  <https://play.c7.se/ff/boo/jam/peter.boo.zip>
+
+  ##### Controls
+
+    - **E**: Start the game!
+    - **Pad**: Move the shepherd around.
+
