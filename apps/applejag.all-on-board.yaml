@@ -1,0 +1,35 @@
+name: All on board!
+short: You are ship crew in a battle against The Flying Dutchman
+added: "2026-11-02"
+icon: fa-solid fa-ship
+download: https://codeberg.org/applejag/all-on-board/releases/download/latest/applejag.all-on-board.zip
+links:
+  source code: https://codeberg.org/applejag/all-on-board
+  itch.io: https://applejag.itch.io/all-on-board
+categories:
+  - type/game
+  - genre/action
+  - perspective/side-view
+  - pacing/real-time
+  - gameplay/qte
+  - gameplay/time-management
+  - setting/sea-pirates
+  - accessibility/difficulty
+  - programming-language/odin
+  - events/jam3
+desc: |
+  You are crew on a transport vessel, attacked by the infamous ghost ship, The Flying Dutchman.
+
+  Load the cannons and battle The Flying Dutchman in a fight to the death. When they hit you with their cannons, parts of your ship will start malfunctioning, requiring immediate action.
+
+  Written using [Odin](https://odin-lang.org/) as part of the [Firefly Zero Jam #3](https://itch.io/jam/firefly-jam-3)
+
+  ## Credits
+
+  - Code (and some art) by: applejag
+  - Font: embedded-graphics (downloaded from [fonts.fireflyzero.com](https://fonts.fireflyzero.com/ascii))
+  - Background cloud & sea: [Moon and Sea Pixel Art Background](https://opengameart.org/content/moon-and-sea-pixel-art-background) ([OGA-BY 3.0](https://static.opengameart.org/OGA-BY-3.0.txt))
+  - Playable character and special effects: [Haunted Love Boat](https://bubbabba.itch.io/haunted-love-boat) by [bubbabba](https://bubbabba.itch.io/)
+  - Ship tileset: [A Pirate Ship Tiles & Decorations Set 16x16](https://kaiswerkstatt.itch.io/high-seas-pirate-ship-tiles-decorations) by [kaiswerkstatt](https://kaiswerkstatt.itch.io/)
+
+  Third-party assets were modified to fit in a custom 16-color palette
