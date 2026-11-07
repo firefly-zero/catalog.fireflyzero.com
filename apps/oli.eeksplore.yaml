@@ -1,0 +1,18 @@
+name: Eeksplore
+short: 2d top down ghost herding
+added: "2026-11-07"
+icon: fa-solid fa-bug
+download: https://codeberg.org/oli-obk/eeksplore/releases/download/latest/oli.mania.zip
+links:
+  source code: https://codeberg.org/oli-obk/eeksplore
+  original: https://oli-obk.itch.io/eeksplore
+categories:
+  - type/game
+  - genre/adventure
+  - perspective/top-down
+  - pacing/real-time
+  - gameplay/graphic-adventure
+  - programming-language/rust
+  - events/jam3
+desc: >
+  Walk around in a gameboy RPG style world, explore, do some quests, have fun with your friends.
